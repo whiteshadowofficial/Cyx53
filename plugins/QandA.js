@@ -1,15 +1,20 @@
-const Asena = require('../events');
+const Amazone = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
+const Language = require('../language');
+const Lang = Language.getString('amazone');
 
-// CMD_HELP
+// පින්වන්තියේ මාගේ මාගේ ප්‍රේම කතාවේ...🌼
+//ඇයිදෝ...මට පෑවෙ මල්මදහාසේ...🌟
+
 const brainly = "Finds the answer."
 const usage = ".brainly <Question>"
 
 const butuh = "```Enter the Question!```"
 
-Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: brainly, usage: usage }, async (message, match) => {
+if (Config.WORKTYPE == 'private') {
+Amazone.addCommand({ pattern: 'brainly ?(.*)', fromMe: true, desc: Lang.BR_DESC}, async (message, match) => {
 
         const Soal = match[1]
         
@@ -29,3 +34,4 @@ Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: brainly, usage
            })
       },
     )
+}
