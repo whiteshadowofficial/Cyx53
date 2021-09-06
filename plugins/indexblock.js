@@ -1,25 +1,27 @@
-/* COPYRIGHT © HISHAN-SOPHIA
-   RE-CODED - TERROR BOY
+/* Copyright (C) 2021 TENUX-Neotro.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+NEOTROX - TEENUHX
 */
-const Hisham = require('../events');
+
+const Neotro = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
 const fs = require('fs');
 const Config = require('../config')
 
-// Inbox Block System
-// This Plugins By Hisham Muhammed 
-const INBO = "_~~~••• WhiteDevil •••~~~_* \n\n\n *മോനേ block ചെയ്യുകയാണ് എന്റെ _owner_ നിങ്ങളെ _unblock_ ചെയ്യും എന്ന് ഞാൻ  പ്രതീക്ഷിക്കുന്നു"
+//Inbox Block System By Queen Amazone
+
+const INBO = ""
  if (Config.INBO == 'true') {
-Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
+Neotro.addCommand({on: 'text', fromMe: false, onlyPm: true }, (async (message, match) => {
         let regexb1ichu = new RegExp('.')
         let regexb2ichu = new RegExp('a')
-        let regexb3ichu = new RegExp('e')
-        let regexb4ichu = new RegExp('i')
-        let regexb5ichu = new RegExp('o')
-        let regexb6ichu = new RegExp('u')
-// export data -(Hisham-muhammed)
+        let regexb3ichu = new RegExp('v')
+        let regexb4ichu = new RegExp('h')
+        let regexb5ichu = new RegExp('H')
+        let regexb6ichu = new RegExp('s')
           if (regexb1ichu.test(message.message)) {
            
             await message.client.sendMessage(message.jid, '*' + INBO + '*', MessageType.text);
