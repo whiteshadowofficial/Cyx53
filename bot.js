@@ -16,7 +16,7 @@ const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
 const got = require('got');
 
-// Sql
+// ════════════════════SQL◽◽◽◽
 const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     info: {
       type: DataTypes.STRING,
@@ -65,7 +65,7 @@ async function whatsAsena () {
         }
     });
     
-    
+// ════════════════════WA CONNECTION◽◽◽◽    
     const conn = new WAConnection();
     conn.version = [2, 2123, 8];
     const Session = new StringSession();
@@ -130,7 +130,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 require('./plugins/' + plugin);
             }
         });
-
+// ════════════════════PLUGGINS SUCCESS◽◽◽◽
         console.log(
             chalk.green.bold('✅ WHITE DEVIL working!')
        );
@@ -146,8 +146,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         }
      });
     
-    /* credit:- Toxic-Devil
-    */
+// ════════════════════LOGIN MESSAGE◽◽◽◽
     setInterval(async () => { 
         if (config.AUTOBIO == 'true') {
             if (conn.user.jid.startsWith('90')) { 
@@ -278,7 +277,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             }
         }
     }, 7890);
-    
+// ════════════════════AUTO BIO◽◽◽◽◽    
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
@@ -309,7 +308,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             }
         }
     }, 50000);
-    
+ // ════════════════════ANNOUNCEMENT◽◽◽◽◽   
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
@@ -319,7 +318,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
- 
+// ════════════════════NO ONLINE◽◽◽◽◽ 
 
         if (config.WELCOME == 'pp' || config.WELCOME == 'Pp' || config.WELCOME == 'PP' || config.WELCOME == 'pP' ) {
             if (msg.messageStubType === 32 || msg.messageStubType === 28) {
@@ -363,7 +362,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     return;
                 }
              }
-
+// ════════════════════WELCOME & GOODBYE◽◽◽◽◽
         events.commands.map(
             async (command) =>  {
                 if (msg.message && msg.message.imageMessage && msg.message.imageMessage.caption) {
@@ -382,12 +381,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         command.pattern.test(text_msg)))) || 
                     (command.pattern !== undefined && command.pattern.test(text_msg)) || 
                     (command.on !== undefined && command.on === 'text' && text_msg) ||
-                    // Video
                     (command.on !== undefined && (command.on === 'video')
                     && msg.message && msg.message.videoMessage !== null && 
                     (command.pattern === undefined || (command.pattern !== undefined && 
                         command.pattern.test(text_msg))))) {
-
+// ════════════════════VIDEO & IMAGE◽◽◽◽◽◽
                     let sendMsg = false;
                     var chat = conn.chats.get(msg.key.remoteJid)
                         
@@ -398,7 +396,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-  
+// ════════════════════SUDO◽◽◽◽◽  
                     if (sendMsg) {
                         if (config.SEND_READ && command.on === undefined) {
                             await conn.chatRead(msg.key.remoteJid);
@@ -438,7 +436,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             }
         )
     });
-    
+ // ════════════════════ERRROR MESSAGES◽◽◽◽◽   
     try {
         await conn.connect();
     } catch {
