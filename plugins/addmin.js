@@ -1,11 +1,7 @@
-/*Copyright (C) 2021 TERROR BOY
-
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-WhiteDevil- terror-boy
-
-    codded by afnanplk
+NEOTROX - TEENUHX
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
@@ -32,7 +28,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     });
     return sonuc.includes(true);
 }
-if (Config.WORKTYPE == 'admin') {
+if (Config.XYZ == 'work') {
 
 Asena.addCommand({pattern: 'ban ?(.*)', fromMe: false, dontAddCommandList: true, onlyGroup: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
     var im = await checkImAdmin(message);
