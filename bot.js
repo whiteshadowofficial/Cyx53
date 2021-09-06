@@ -82,7 +82,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('✅ Login information updated!')
+            chalk.blueBright.italic('👩‍🦰Login information updated!▶')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -96,17 +96,17 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
+${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('✅ Login successful!')
+            chalk.green.bold('👩‍🦰 Login successful!▶')
         );
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing external plugins...')
+            chalk.blueBright.italic('🚀Installing external plugins...▶')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -122,7 +122,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⬇️Installing plugins...')
+            chalk.blueBright.italic('🤖Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -132,7 +132,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 // ════════════════════PLUGGINS SUCCESS◽◽◽◽
         console.log(
-            chalk.green.bold('✅ WHITE DEVIL working!')
+            chalk.green.bold('👩‍🦰AMAZONE ALEXA working!')
        );
         
          if (config.LANG == 'EN') {
@@ -284,9 +284,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
          
         while (getGMTh == 19 && getGMTm == 1) {
             var announce = ''
-            if (config.LANG == 'EN') announce = '📢 Announcement system is now been added to Whitedevil!! 🥳\nDaily We ( the developers ) will announce *events/features/something new* from this system 📝\nStay Connected ✅'
-            if (config.LANG == 'ML') announce = '📢 പ്രഖ്യാപന സംവിധാനം ഇപ്പോൾ Whitedevil- ൽ ചേർത്തിരിക്കുന്നു !! 🥳\nഎല്ലാ ദിവസവും ഞങ്ങൾ ( ഡവലപ്പർമാർ ) ഈ സിസ്റ്റത്തിൽ നിന്ന് *ഇവന്റുകൾ/സവിശേഷതകൾ/പുതിയ എന്തെങ്കിലും* പ്രഖ്യാപിക്കും 📝\nകണക്റ്റഡ് ആയി തുടരുക ✅'
-            if (config.LANG == 'ID') announce = '📢 Sistem pengumuman sekarang ditambahkan ke Whitedevil !! 🥳\nHarian Kami ( pengembang ) akan mengumumkan *acara/fitur/sesuatu yang baru* dari sistem ini 📝\nTetap Terhubung ✅'
+            if (config.LANG == 'EN') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement SYSTEM 🔘'
+            if (config.LANG == 'SI') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾නිවේදන පද්ධතිය 🔘'
+            if (config.LANG == 'ID') announce = '📢◉◉👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ◉◉ \n👾Announcement System 🔘'
             
             let video = 'https://imgur.com/u9LLLGV.mp4'
             let image = 'https://i.imgur.com/kB30S41.jpg'
