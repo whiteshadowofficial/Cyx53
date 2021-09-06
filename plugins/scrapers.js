@@ -1,7 +1,7 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+NEOTROX - TEENUHX
 */
 
 const Asena = require('../events');
@@ -45,6 +45,8 @@ const Lang = Language.getString('scrapers');
 const Glang = Language.getString('github');
 const Slang = Language.getString('lyrics');
 const Clang = Language.getString('covid');
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TRANSLATION //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
 const wiki = require('wikijs').default;
 var gis = require('g-i-s');
@@ -129,7 +131,6 @@ if (config.LANG == 'RU') {
     dlang_input = 'Обработанный текст:'
 }
 
-
 if (config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
@@ -147,6 +148,9 @@ if (config.WORKTYPE == 'private') {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
         }
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉TRANSLATION END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ ANTI LINK //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
     var l_dsc = ''
     var alr_on = ''
     var alr_off = ''
@@ -244,6 +248,9 @@ if (config.WORKTYPE == 'private') {
             }
         }
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ ANTILINK END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ AUTOBIO ◽//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
     var auto_dsc = ''
     var alr_on_bio = ''
     var alr_off_bio = ''
@@ -341,6 +348,10 @@ if (config.WORKTYPE == 'private') {
             }
         }
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ AUTOBIO END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ DETECT LANG //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
     Asena.addCommand({pattern: 'detectlang$', fromMe: true, desc: dlang_dsc}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text)
@@ -366,6 +377,10 @@ if (config.WORKTYPE == 'private') {
         const rep_7 = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
         await message.client.sendMessage(message.jid,rep_7,MessageType.text);
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉DETECT LANG END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉CURRENCY //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
     Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
@@ -390,8 +405,10 @@ if (config.WORKTYPE == 'private') {
             }
         }
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ CURRENCY END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
-    if (config.LANG == 'TR' || config.LANG == 'AZ') {
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TTS //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+    if (config.LANG == 'SI' || config.LANG == 'AZ') {
 
         Asena.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
@@ -399,7 +416,7 @@ if (config.WORKTYPE == 'private') {
                 return;
     
             let 
-                LANG = 'tr',
+                LANG = 'si',
                 ttsMessage = match[1],
                 SPEED = 1.0
 
@@ -426,7 +443,7 @@ if (config.WORKTYPE == 'private') {
                 return;
     
             let 
-                LANG = 'ml',
+                LANG = 'en',
                 ttsMessage = match[1],
                 SPEED = 1.0
 
@@ -446,6 +463,10 @@ if (config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
         }));
     }
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TTS END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ SONG //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
     Asena.addCommand({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
@@ -478,6 +499,10 @@ if (config.WORKTYPE == 'private') {
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: false});
             });
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ SONG END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉VIDEO //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
     Asena.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
@@ -504,6 +529,9 @@ if (config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*" });
         });
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ VIDEO END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ YT //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
     Asena.addCommand({pattern: 'yt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
 
@@ -524,6 +552,9 @@ if (config.WORKTYPE == 'private') {
         await message.client.sendMessage(message.jid,mesaj,MessageType.text);
         await reply.delete();
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ YT END
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ WIKI
 
     Asena.addCommand({pattern: 'wiki ?(.*)', fromMe: true, desc: Lang.WIKI_DESC}, (async (message, match) => { 
 
@@ -537,6 +568,10 @@ if (config.WORKTYPE == 'private') {
         await message.client.sendMessage(message.jid, info, MessageType.text);
         await reply.delete();
     }));
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ WIKI END
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ IMG
 
     Asena.addCommand({pattern: 'img ?(.*)', fromMe: true, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
@@ -554,6 +589,9 @@ if (config.WORKTYPE == 'private') {
             message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
         });
     }));
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ IMG END
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ GITHUB 
 
     Asena.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
@@ -599,6 +637,10 @@ if (config.WORKTYPE == 'private') {
           )
       },
     )
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ GITHUB END
+
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ LYRICS
 
     Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: true, desc: Slang.LY_DESC }, (async (message, match) => { 
 
@@ -819,6 +861,15 @@ if (config.WORKTYPE == 'private') {
     }));
 
 }
+//▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉COVID END
+
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
+
+
+//░░░░░░░▓▓▓▓▓▓▓▓STAT PUBLIC▓▓▓▓▓▓▓░░░░░░▓▓▓▓
+
 else if (config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: false}, (async (message, match) => {
@@ -836,6 +887,7 @@ else if (config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
         }
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
     Asena.addCommand({pattern: 'detectlang$', fromMe: false, desc: dlang_dsc}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text)
@@ -861,6 +913,7 @@ else if (config.WORKTYPE == 'public') {
         const rep_7 = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
         await message.client.sendMessage(message.jid,rep_7,MessageType.text, { quoted: message.data });
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
     Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
@@ -885,15 +938,15 @@ else if (config.WORKTYPE == 'public') {
             }
         }
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
-    
     Asena.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
         if(match[1] === undefined || match[1] == "")
             return;
     
         let 
-            LANG = 'ml',
+            LANG = 'si',
             ttsMessage = match[1],
             SPEED = 1.0
 
@@ -912,6 +965,7 @@ else if (config.WORKTYPE == 'public') {
         });
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
@@ -945,6 +999,7 @@ else if (config.WORKTYPE == 'public') {
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: false});
             });
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
@@ -972,73 +1027,7 @@ else if (config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*" });
         });
     }));
-
-    Asena.addCommand({pattern: 'sing ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SING,MessageType.text);    
-        let arama = await yts(match[1]);
-        arama = arama.all;
-        if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
-
-        let title = arama[0].title.replace(' ', '+');
-        let stream = ytdl(arama[0].videoId, {
-            quality: 'highestaudio',
-        });
-    
-        got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
-        ffmpeg(stream)
-            .audioBitrate(320)
-            .save('./' + title + '.mp3')
-            .on('end', async () => {
-                const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
-                writer.setFrame('TIT2', arama[0].title)
-                    .setFrame('TPE1', [arama[0].author.name])
-                    .setFrame('APIC', {
-                        type: 3,
-                        data: fs.readFileSync(title + '.jpg'),
-                        description: arama[0].description
-                    });
-                writer.addTag();
-
-                
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
-            });
-    }));
-
-    
-    
-    Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.ISONG_DESC}, (async (message, match) => { 
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
-        let arama = await yts(match[1]);
-        arama = arama.all;
-        if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
-
-        let title = arama[0].title.replace(' ', '+');
-        let stream = ytdl(arama[0].videoId, {
-            quality: 'highestaudio',
-        });
-    
-        got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
-        ffmpeg(stream)
-            .audioBitrate(320)
-            .save('./' + title + '.mp3')
-            .on('end', async () => {
-                const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
-                writer.setFrame('TIT2', arama[0].title)
-                    .setFrame('TPE1', [arama[0].author.name])
-                    .setFrame('APIC', {
-                        type: 3,
-                        data: fs.readFileSync(title + '.jpg'),
-                        description: arama[0].description
-                    });
-                writer.addTag();
-
-                
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: 'for iphone ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ' + '.mp3', mimetype: 'audio/mpeg', quoted: message.data});
-            });
-    }));
-
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: 'wiki ?(.*)', fromMe: false, desc: Lang.WIKI_DESC}, (async (message, match) => { 
 
@@ -1052,6 +1041,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid, info, MessageType.text);
         await reply.delete();
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
@@ -1069,6 +1059,7 @@ else if (config.WORKTYPE == 'public') {
             message.reply(Lang.IMG.format((result.length < 8 ? result.length : 8), match[1]));
         });
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
@@ -1114,6 +1105,7 @@ else if (config.WORKTYPE == 'public') {
           )
       },
     )
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
 
@@ -1129,6 +1121,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
 
     }));
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
     Asena.addCommand({pattern: "covid ?(.*)", fromMe: false, desc: Clang.COV_DESC}, (async (message, match) => {
         if (match[1] === "") {
@@ -1334,3 +1327,4 @@ else if (config.WORKTYPE == 'public') {
     }));
     
 }           
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
