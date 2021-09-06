@@ -556,11 +556,21 @@
         },
         "amazone": {
             "APK": "GET mod app link.",
-            "ANIME_DESC": "```You Must Write Any Song!```",
+            "ANIM_DESC": "```Send Random Anime Wallpapers!```",
             "BR_DESC": "Ask a quation",
             "ANTI": "Turn On AntiLink",
             "DEVICE": "get phone details",
-            "ARAT": "Searched Song:"
+            "A": "👩‍🦰",
+            "B": "👩‍🦰",
+            "C": "👩‍🦰",
+            "D": "👩‍🦰",
+            "E": "👩‍🦰",
+            "F": "👩‍🦰",
+            "G": "👩‍🦰",
+            "H": "👩‍🦰",
+            "I": "👩‍🦰",
+            "J": "👩‍🦰",
+            "K": "👩‍🦰"
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
