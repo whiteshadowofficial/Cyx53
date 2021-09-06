@@ -1,15 +1,12 @@
-/* Copyright (C) 2021 TERROR BOY
-
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-WhiteDevil- terror-boy
+NEOTROX - TEENUHX
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 const Asena = require('../events');
 const Config = require('../config');
-
 const Language = require('../language');
 const Lang = Language.getString('admin');
 const mut = Language.getString('mute');
@@ -1561,7 +1558,7 @@ Asena.addCommand({pattern: 'invite ?(.*)', fromMe: true, dontAddCommandList: tru
     await message.client.sendMessage(message.jid,Lang.INVITE + ' https://chat.whatsapp.com/' + invite, MessageType.text);
 }));
 
-Asena.addCommand({pattern: 'rename ?(.*)', onlyGroup: true, fromMe: true,desc: Asena}, (async (message, match) => {
+Asena.addCommand({pattern: 'rename ?(.*)', onlyGroup: true, fromMe: true,desc: Lang.RENAME}, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,'i am not admin',MessageType.text);
     if (match[1] === '') return await message.client.sendMessage(message.jid,'changing',MessageType.text);
