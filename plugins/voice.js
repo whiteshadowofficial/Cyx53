@@ -5,7 +5,6 @@ const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const Config = require('../config');
-
 const Language = require('../language');
 const Lang = Language.getString('unvoice'); // Language support
 
