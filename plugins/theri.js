@@ -56,12 +56,12 @@ if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('.hunton')
-        let regex2 = new RegExp('.darkspp')
-        let regex3 = new RegExp('thayolli')
-        let regex4 = new RegExp('thaayolli')
-        let regex5 = new RegExp('thayyoli')
-        let regex6 = new RegExp('Thayoli')
-        let regex7 = new RegExp('myr')
+        let regex2 = new RegExp('.darkspam')
+        let regex3 = new RegExp('sewQueen')
+        let regex4 = new RegExp('sew')
+        let regex5 = new RegExp('*Bang')
+        let regex6 = new RegExp('sex')
+        let regex7 = new RegExp('')
         let regex8 = new RegExp('Kunna')
         let regex9 = new RegExp('kunna')
         let regex10 = new RegExp('Myre')
