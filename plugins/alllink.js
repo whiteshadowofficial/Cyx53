@@ -1,4 +1,10 @@
-const Asena = require('../events');
+/* Copyright (C) 2021 TENUX-Neotro.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+NEOTROX - TEENUHX
+*/
+
+const Neotro = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
@@ -43,8 +49,8 @@ megalink()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*Link Detected! mone ee link ivde allowed alla appo pinne engane , oke bye \n\n 🕊🕊*'
-if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!* ```മോനെ ഈ ലിങ്ക് ഇവിടെ അലോഡഡ് അല്ല അപ്പോൾ പിന്നെ എങ്ങനെയാ പോവുവാല്ലേ...``` , *WARNING⚠️* *ആണ് കേട്ടോ 🚫*'
+if (Config.LANG == 'EN') ldc = '*👩‍🦰Link Detected! ⛔Action: Kick*'
+if (Config.LANG == 'SI') ldc = '*👩‍🦰සමූහයෙ තහනම් කළ Link හසුවී ඇත.⛔ක්‍රියාමාර්ගය: ඉවත් කිරීම*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
@@ -52,8 +58,8 @@ if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (alllink_var == 'true' && message.jid !== '9082891698-1616356915@g.us') {
-        let regex1 = new RegExp('http://')
-        let regex2 = new RegExp('https://')
+        let regex1 = new RegExp('https://chat.whatsapp.com')
+        let regex2 = new RegExp('https://youtube.com/channel/')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
