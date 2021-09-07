@@ -45,6 +45,7 @@ const Lang = Language.getString('scrapers');
 const Glang = Language.getString('github');
 const Slang = Language.getString('lyrics');
 const Clang = Language.getString('covid');
+const Alang = Language.getString('amazone');
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TRANSLATION //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
@@ -270,12 +271,12 @@ if (config.WORKTYPE == 'private') {
         succ_on_bio = 'Autobio Opened Successfully!'
         succ_off_bio = 'Autobio Closed Successfully!'
     }
-    if (config.LANG == 'AZ') {
-        auto_dsc = 'Bio-ya canlı saat əlavə et!'
-        alr_on_bio = 'Autobio hazırda açıqdır!'
-        alr_off_bio = 'Autobio hazırda bağlıdır!'
-        succ_on_bio = 'Autobio Uğurla Açıldı!'
-        succ_off_bio = 'Autobio Uğurla Bağlandı!'
+    if (config.LANG == 'SI') {
+        auto_dsc = 'සජීවි ලෙස ඔබේ bio තුල වේලාව පෙන්වයි!'
+        alr_on_bio = '👩‍🦰Autobio කලින්ම ක්‍රියාත්මකයි.!'
+        alr_off_bio = '👩‍🦰Autobio කලින්ම අක්‍රියයි.!'
+        succ_on_bio = '👩‍🦰Autobio සාර්තකව ක්‍රියාත්මක විය.!'
+        succ_off_bio = '👩‍🦰Autobio සාර්ථකත්ව අක්‍රීය විය!'
     }
     if (config.LANG == 'HI') {
         auto_dsc = 'अपने बायो में लाइव घड़ी जोड़ें!'
@@ -381,7 +382,7 @@ if (config.WORKTYPE == 'private') {
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉CURRENCY //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
-    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', desc: Alang.CURRENCY, fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -526,7 +527,7 @@ if (config.WORKTYPE == 'private') {
 
         yt.on('end', async () => {
             reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*" });
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: config.BOT_NAME});
         });
     }));
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ VIDEO END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
@@ -914,7 +915,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,rep_7,MessageType.text, { quoted: message.data });
     }));
 //░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
-    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', desc: Alang.CURRENCY, fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -1024,7 +1025,7 @@ else if (config.WORKTYPE == 'public') {
 
         yt.on('end', async () => {
             reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*" });
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, { caption: config.BOT_NAME});
         });
     }));
 //░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
