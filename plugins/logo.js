@@ -1,4 +1,4 @@
-
+/*
 const Asena = require('../events');
 
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -856,3 +856,4 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*'})
 
     }));
+*/
