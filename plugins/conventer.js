@@ -13,7 +13,6 @@ const Config = require('../config');
 const cheerio = require('cheerio')
 const FormData = require('form-data')
 const Axios = require('axios');
-
 const Language = require('../language');
 const Lang = Language.getString('conventer');
 
@@ -55,7 +54,7 @@ function webp2mp4File(path) {
                 const result = 'https:' + $('div#output > p.outfile > video > source').attr('src')
                 resolve({
                     status: true,
-                    message: "*ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ*",
+                    message: "*👩‍🦰QUEEN-AMAZONE🚀*",
                     result: result
                 })
             }).catch(reject)
@@ -105,6 +104,7 @@ if (Config.WORKTYPE == 'private') {
             });
         return await message.client.deleteMessage(mid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
+/*
     Asena.addCommand({pattern: 'mp4$', desc: Lang.ANİM_STİCK, fromMe: true}, (async (message, match) => {
         const mid = message.jid
         if (message.reply_message === false) return await message.sendMessage(Lang.STİCKER_NEEDREPLY);
@@ -128,6 +128,7 @@ if (Config.WORKTYPE == 'private') {
         })
     }));
 }
+*/
 else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'mp3$', fromMe: false, desc: Lang.MP4TOAUDİO_DESC}, (async (message, match) => {    
