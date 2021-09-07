@@ -1,29 +1,29 @@
 {
   "name": "ales",
   "version": "7.3.6",
-  "description": "WhiteDevil is the Modified Version of WhatsAsena, Made By @TERROR BOY with Baileys.",
+  "description": ".",
   "main": "./ales/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terror-boy/WhiteDevil.git"
+    "url": "git+https://github.com/jesonpro/ales.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
-    "asena",
-    "WhatsAsena"
+    "amazone",
+    "alexa"
   ],
-  "author": "terror-boy",
-  "developer": "@terror-boy / @farhan-dqz",
+  "author": "Alexa",
+  "developer": "@terror-boy / @HatzuHole",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/terror-boy/WhiteDevil/issues"
+    "url": "https://github.com/jesonpro/ales/issues"
   },
-  "homepage": "https://github.com/terror-boy/WhiteDevil#readme",
+  "homepage": "https://github.com/jesonpro/ales#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
