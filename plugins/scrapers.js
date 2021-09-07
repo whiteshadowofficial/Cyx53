@@ -74,13 +74,13 @@ if (config.LANG == 'EN') {
     dlang_other = 'Other Languages'
     dlang_input = 'Processed Text:'
 }
-if (config.LANG == 'AZ') {
-    dlang_dsc = 'Cavablanan mesajın dilini təxmin edin.'
-    closer_res = 'Ən yaxın nəticə:'
-    dlang_lang = 'Dil:'
-    dlang_similarity = 'Bənzərlik:'
-    dlang_other = 'Başqa Dillər'
-    dlang_input = 'İşlənmiş Mətn:'
+if (config.LANG == 'SI') {
+    dlang_dsc = 'ලබා දෙන පණිවිඩයේ භාශාව අනුමාන කරයි.'
+    closer_res = '✅සමීපතම පිළිතුර:'
+    dlang_lang = '▶භාශාව:'
+    dlang_similarity = '🚀සමානකම්:'
+    dlang_other = '👾වෙනත් භාශා:'
+    dlang_input = '👩‍🦰සැකසූ පෙළ:'
 }
 if (config.LANG == 'ML') {
     dlang_dsc = 'മറുപടി നൽകിയ സന്ദേശത്തിന്റെ ഭാഷ ess ഹിക്കുക.'
@@ -170,12 +170,12 @@ if (config.WORKTYPE == 'private') {
         succ_on = 'Antilink Opened Successfully!'
         succ_off = 'Antilink Closed Successfully!'
     }
-    if (config.LANG == 'AZ') {
-        l_dsc = 'Antilink alətini aktivləşdirir.'
-        alr_on = 'Antilink hazırda açıqdır!'
-        alr_off = 'Antilink hazırda bağlıdır!'
-        succ_on = 'Antilink Uğurla Açıldı!'
-        succ_off = 'Antilink Uğurla Bağlandı!'
+    if (config.LANG == 'SI') {
+        l_dsc = 'Antilink මෙවලම් ක්‍රියාත්මක කරයි.'
+        alr_on = 'Antilink කලින්ම ක්‍රියාත්මකයි!'
+        alr_off = 'Antilink කලින්ම  අක්‍රියයි!'
+        succ_on = 'Antilink සාර්තකව ක්‍රියාත්මක විය!'
+        succ_off = 'Antilink සාර්තකව අක්‍රිය විය!'
     }
     if (config.LANG == 'HI') {
         l_dsc = 'एंटीलिंक टूल को सक्रिय करता है।'
