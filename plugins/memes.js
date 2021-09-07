@@ -1,10 +1,7 @@
-/* Copyright (C) 2020 Yusuf Usta.
-
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-Coded by @KursadHD
+NEOTROX - TEENUHX
 */
 
 const Asena = require('../events');
@@ -12,7 +9,6 @@ const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 const memeMaker = require('meme-maker')
 const fs = require('fs')
 const Config = require('../config');
-
 const Language = require('../language');
 const Lang = Language.getString('memes');
 
