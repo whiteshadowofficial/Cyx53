@@ -8,8 +8,8 @@ const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 const Asena = require('../events');
 const Config = require('../config');
 const UNQ = "wrong command dont type words after command"
-const DDO = "🚀\n\n▓▓▓▓ ' + Config.BOT_NAME + ' ATTACK STARTED👾...▓▓▓"
-const ONO = "▓▓▓▓▓▓ ' + Config.BOT_NAME + '  *☠We are Deamons Do not run away...☠* \nᴘᴏᴡᴇʀᴇᴅ ʙʏ 👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ"
+const code1 = ('🚀\n\n▓▓▓▓ ' + Config.BOT_NAME + ' ATTACK STARTED👾...▓▓▓')
+const code2 = ('▓▓▓▓▓▓ ' + Config.BOT_NAME + '  *☠We are Deamons Do not run away...☠* \nᴘᴏᴡᴇʀᴇᴅ ʙʏ 👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ')
 const Language = require('../language');
 const Lang = Language.getString('amazone');
 const mut = Language.getString('mute');
@@ -27,7 +27,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, desc: Lang.BUGHOLE,deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.toggleDisappearingMessages(message.jid, 64000);
-            await message.client.sendMessage(message.jid,DDO,MessageType.text);
+            await message.client.sendMessage(message.jid,code1,MessageType.text);
             await message.client.sendMessage(message.jid,".tagall",MessageType.text);
             await message.client.toggleDisappearingMessages(message.jid, 64000);
             await message.client.toggleDisappearingMessages(message.jid, 64000);
@@ -44,7 +44,7 @@ Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, desc: Lang.BUGHOLE,deleteC
             await message.client.toggleDisappearingMessages(message.jid, 0);
             await message.client.toggleDisappearingMessages(message.jid, 64000);
             await message.client.toggleDisappearingMessages(message.jid, 64000);
-            await message.client.sendMessage(message.jid,ONO,MessageType.text);
+            await message.client.sendMessage(message.jid,code2,MessageType.text);
         }
         else {
             return await message.client.sendMessage(message.jid, UNQ, MessageType.text);
@@ -53,10 +53,10 @@ Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, desc: Lang.BUGHOLE,deleteC
 }));
 
 
-Asena.addCommand({pattern: 'teenu ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
+Asena.addCommand({pattern: 'lusifer ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.sendMessage(message.jid,".tagall",MessageType.text);
-            await message.client.sendMessage(message.jid,ONO,MessageType.text);
+            await message.client.sendMessage(message.jid,code1,MessageType.text);
             await message.client.toggleDisappearingMessages(message.jid, 0);
             await message.client.toggleDisappearingMessages(message.jid, 0);
             await message.client.toggleDisappearingMessages(message.jid, 0);
