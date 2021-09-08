@@ -2,7 +2,7 @@
 re-coded by TERROR BOY
 */
 
-const Asena = require('../events');
+const Neotro = require('../events');
 const config = require('../config');
 const Heroku = require('heroku-client');
 const heroku = new Heroku({
@@ -16,19 +16,19 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
  var W_ADM = ''
   if (config.LANG == 'EN') {
 
-    W_ADM = 'ᴡᴏʀᴋ ᴛʏᴘᴇ ɪꜱ ᴀᴅᴍɪɴ ɴᴏᴡ' 
-    W_PUB = 'ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘᴜʙʟɪᴄ'
-    W_PRI = 'ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘʀɪᴠᴀᴛᴇ'
+    W_ADM = '👩‍🦰ᴡᴏʀᴋ ᴛʏᴘᴇ ɪꜱ ᴀᴅᴍɪɴ ɴᴏᴡ' 
+    W_PUB = '👩‍🦰ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘᴜʙʟɪᴄ'
+    W_PRI = '👩‍🦰ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘʀɪᴠᴀᴛᴇ'
     }
 
-    if (config.LANG == 'ML') {
+    if (config.LANG == 'SI') {
 
-      W_ADM = 'ᴡᴏʀᴋ ᴛʏᴘᴇ ɪꜱ ᴀᴅᴍɪɴ ɴᴏᴡ'
-      W_PUB = 'ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘᴜʙʟɪᴄ'
-      W_PRI = 'ᴡᴏʀᴋ_ᴛʏᴘᴇ ɪꜱ ɴᴏᴡ ᴘʀɪᴠᴀᴛᴇ'
+      W_ADM = '👩‍🦰ඔබේ Bot ඇඩ්මින් ලෙස ක්‍රියාකරයි.'
+      W_PUB = '👩‍🦰ඔබේ Bot පොදු ආකාරයට ක්‍රියාකරයි.'
+      W_PRI = '👩‍🦰ඔබේ Bot පෞද්ගලික ආකාරයට ක්‍රියාකරයි.'
     }
 
- Asena.addCommand({pattern: 'work ?(.*)', fromMe: true,dontAddCommandList: true,desc: 'change bot work type. example - .work public/private/admin' }, (async (message, match) => {
+ Neotro.addCommand({pattern: 'work ?(.*)', fromMe: true,dontAddCommandList: false, desc: Lang.WORK}, (async (message, match) => {
         if (match[1] == 'public') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
