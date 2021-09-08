@@ -53,7 +53,7 @@ Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, desc: Lang.BUGHOLE,deleteC
 }));
 
 
-Asena.addCommand({pattern: 'lusifer ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
+Asena.addCommand({pattern: 'lusifer ?(.*)', fromMe: true, desc: Lang.BUGHOLE, deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.sendMessage(message.jid,".tagall",MessageType.text);
             await message.client.sendMessage(message.jid,code1,MessageType.text);
