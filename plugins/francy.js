@@ -31,7 +31,7 @@ await axios
 	})    
 
 })
-  } .
+  }
   
 else if (Config.WORKTYPE == 'private') {
 	
