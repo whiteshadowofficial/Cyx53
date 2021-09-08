@@ -9,11 +9,9 @@ const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-let am = Config.WORKTYPE ==  public  ? false : true
+let am = Config.WORKTYPE == 'public' ? false : true
 const EFFECT_DESC = "Text effective රූප බවට පරිවර්තනය කිරීම සඳහා විධාන කට්ටලයක්."
 const NEED_WORD = "*ඔබ වචනයක් ඇතුළත් කළ යුතුය*"
-
-if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
 
@@ -479,5 +477,3 @@ Asena.addCommand({pattern: 'nxninja ?(.*)', fromMe: am, dontAddCommandList: true
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
 
     }));
-
-}
