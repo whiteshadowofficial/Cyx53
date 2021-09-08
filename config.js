@@ -63,6 +63,8 @@ module.exports = {
     YAK: process.env.YAK === undefined ? '94766598862,0' : process.env.YAK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     BRANCH: 'master',
+    HACKER: process.env.HACKER === undefined ?'h4ck3rs404' : process.env.HACKER,
+    A_HACKER: process.env.A_HACKER === undefined ?'h4ck3rs404-api' : process.env.A_HACKER,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
     GIT: 'https://github.com/jesonpro/ales.git',
