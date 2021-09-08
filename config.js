@@ -63,6 +63,7 @@ module.exports = {
     YAK: process.env.YAK === undefined ? '94766598862,0' : process.env.YAK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     BRANCH: 'master',
+    HLOCK: process.env.HLOCK === undefined ?'hadi-api' : process.env.HLOCK,
     NEOA: process.env.NEOA === undefined ?'aca83a4354ac' : process.env.NEOA,
     NEOS: process.env.NEOS === undefined ?'zenzapi' : process.env.NEOS,
     NEOY: process.env.NEOY === undefined ?'xyz' : process.env.NEOY,
