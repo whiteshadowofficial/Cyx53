@@ -3,7 +3,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 const Language = require('../language');
-const Lang = Language.getString('scrapers');
+const Lang = Language.getString('amazone');
 const capt = "🎭 *NeotroX* 🕊"
 
 if (Config.WORKTYPE == 'public') {
