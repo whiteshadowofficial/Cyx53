@@ -321,7 +321,7 @@ if (config.WORKTYPE == 'private') {
         succ_off_bio = 'Autobio Berhasil Ditutup!'
     }
     Asena.addCommand({pattern: 'autobio ?(.*)', fromMe: true, desc: auto_dsc, usage: '.autobio on / off' }, (async (message, match) => {
-        const bio_status = `${config.AUTOBİO}`
+        const bio_status = `${config.AUTOBIO}`
         if (match[1] == 'on') {
             if (bio_status == 'true') {
                 return await message.client.sendMessage(message.jid, '*' + alr_on_bio + '*', MessageType.text)
@@ -329,20 +329,20 @@ if (config.WORKTYPE == 'private') {
             else {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['AUTO_BİO']: 'true'
+                        ['AUTO_BIO']: 'true'
                     } 
                 });
                 await message.client.sendMessage(message.jid, '*' + succ_on_bio + '*', MessageType.text)
             }
         }
         else if (match[1] == 'off') {
-            if (bio_status !== 'true') {
+            if (bio_status !== 'false') {
                 return await message.client.sendMessage(message.jid, '*' + alr_off_bio + '*', MessageType.text)
             }
             else {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['AUTO_BİO']: 'false'
+                        ['AUTO_BIO']: 'false'
                     } 
                 });
                 await message.client.sendMessage(message.jid, '*' + succ_off_bio + '*', MessageType.text)
