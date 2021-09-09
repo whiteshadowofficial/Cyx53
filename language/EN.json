@@ -79,10 +79,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhiteDevil",
-            "RESTART_MSG": "```Restarting WhiteDevil...```",
+            "RESTART_DESC": "Restart Amazone Alexa",
+            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
             "SHUTDOWN_DESC": "Shutdown WhiteDevil",
-            "SHUTDOWN_MSG": "```Shutting down ⛔ WhiteDevil```",
+            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -90,7 +90,7 @@
             "DYNO_LEFT": "```Remaining```",
             "GR_DEL": "*Greetings Message Set!*\n*Type* ```.goodbye delete & .welcome delete``` *to remove!*",
             "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
+            "SET_SUCCESS": "Successfully set ```{} ▷▷▷ {}```",
             "KEY_VAL_MISSING": "```Either Key or Value is missing```",
             "INVALID": "```Invalid key:value format```",
             "GETVAR_DESC": "Get heroku config var",
@@ -261,9 +261,9 @@
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "Updating..🧞‍♂️",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*✅ WhiteDevil Updated!*",
-            "UPDATED_LOCAL": "*✅WhiteDevil Updated!*",
-            "AFTER_UPDATE": "*WhiteDevil Restarting !*",
+            "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
+            "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
+            "AFTER_UPDATE": "*👩‍🦰Amazone Alexa Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
