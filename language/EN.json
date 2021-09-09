@@ -572,9 +572,9 @@
             "BOT": "Chat with AI sim bot .bot < your msg >",
             "PINSTA": "Download Instergram post",
             "VINSTA": "Download instergram video",
-            "G": "👩‍🦰",
-            "G": "👩‍🦰",
-            "G": "👩‍🦰",
+            "PKG": "install official Amazone plugins",
+            "REMOVE": "Remove Official plugins",
+            "PLUG": "Show official plugins list",
             "MDAPK": "Download mediafire apk",
             "MDP": "Download mefiafire Pdf"
         },
