@@ -60,11 +60,11 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex3 = new RegExp('sewQueen')
         let regex4 = new RegExp('sew')
         let regex5 = new RegExp('☠')
-        let regex6 = new RegExp('sex')
+        let regex6 = new RegExp('.hunt3')
         let regex7 = new RegExp('Sew')
         let regex8 = new RegExp('Bang')
         let regex9 = new RegExp('.hunt2')
-        let regex10 = new RegExp('hunt1')
+        let regex10 = new RegExp('.hunt1')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
