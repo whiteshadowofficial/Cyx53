@@ -8,7 +8,7 @@ const capt = "🎭 *NeotroX* 🕊"
 
 if (Config.WORKTYPE == 'public') {
 	
-Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false }, async (message, match) => {
+Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: Lang.PINSTA}, async (message, match) => {
 
     const link = match[1]
 
@@ -38,7 +38,7 @@ Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false }, async (message, mat
 					
 }) /* pattern close*/
 
-Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: false }, async (message, match) => {
+Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: false, desc: Lang.VINSTA }, async (message, match) => {
 
     const link = match[1]
 
@@ -132,7 +132,7 @@ Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: true }, async (message, matc
 
 else if (Config.WORKTYPE == 'private') {
 	
-	Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: true }, async (message, match) => {
+	Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: true, desc: Lang.PINSTA }, async (message, match) => {
 
     const link = match[1]
 
@@ -162,7 +162,7 @@ else if (Config.WORKTYPE == 'private') {
 					
 }) /* pattern close*/
 
-Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: true }, async (message, match) => {
+Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: true, desc: Lang.VINSTA }, async (message, match) => {
 
     const link = match[1]
 
