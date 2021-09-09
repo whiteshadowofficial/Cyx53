@@ -567,10 +567,16 @@
             "BUGHOLE": "GROUP crash ◁Bug Hole▷",
             "MP4": "Direct Video Downloader",
             "WORK": "change bot work type.\n📑.work public/private",
-            "H": "👩‍🦰",
-            "I": "👩‍🦰",
-            "J": "👩‍🦰",
-            "K": "👩‍🦰"
+            "FRANCY": "Text Styles",
+            "MOVIE": "Show movie details",
+            "BOT": "Chat with AI sim bot",
+            "G": "👩‍🦰",
+            "G": "👩‍🦰",
+            "G": "👩‍🦰",
+            "G": "👩‍🦰",
+            "G": "👩‍🦰",
+            "G": "👩‍🦰",
+            "MDP": "Download mefiafire Pdf"
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
