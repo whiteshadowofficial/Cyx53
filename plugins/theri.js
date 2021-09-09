@@ -46,9 +46,9 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*ith njanum vilikkilla neeyum villikilla* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
+if (Config.LANG == 'EN') ldc = '*👩‍🦰Spam Word Detected Action: ⛔kick*'
 if (Config.LANG == 'ML') ldc = '*ith njanum vilikkilla neeyum villikilla* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
-if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
+if (Config.LANG == 'SI') ldc = '*👩‍🦰තහනම් කළ වචන හසු වී ඇත. ක්‍රියාමාර්ගය:⛔ඉවත් කිරීම*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
@@ -59,10 +59,10 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex2 = new RegExp('.darkspam')
         let regex3 = new RegExp('sewQueen')
         let regex4 = new RegExp('sew')
-        let regex5 = new RegExp('*Bang')
+        let regex5 = new RegExp('*☠Bang one corona☠* ')
         let regex6 = new RegExp('sex')
         let regex7 = new RegExp('Sew')
-        let regex8 = new RegExp('Kunna')
+        let regex8 = new RegExp('*☠Bang')
         let regex9 = new RegExp('kunna')
         let regex10 = new RegExp('Myre')
         if (regex1.test(message.message)) {
