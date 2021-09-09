@@ -69,7 +69,7 @@ Asena.addCommand({pattern: 'npkg ?(.*)', fromMe: true, desc: ALang.PKG, warn: La
     }
 }));
 
-Asena.addCommand({pattern: 'tnuasgh', fromMe: true, desc: Lang.PLUGIN_DESC }, (async (message, match) => {
+Asena.addCommand({pattern: 'nplug', fromMe: true, desc: ALang.PLUG }, (async (message, match) => {
     var mesaj = Lang.INSTALLED_FROM_REMOTE;
     var plugins = await Db.PluginDB.findAll();
     if (plugins.length < 1) {
@@ -78,14 +78,14 @@ Asena.addCommand({pattern: 'tnuasgh', fromMe: true, desc: Lang.PLUGIN_DESC }, (a
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('Neotro23') ? msg : inmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + plugin.dataValues.url + '\n' + vf + '\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '👩‍🦰 \n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
     }
 }));
 
-Asena.addCommand({pattern: 'rm(?: |$)(.*)', fromMe: true, desc: Lang.REMOVE_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'rm(?: |$)(.*)', fromMe: true, desc: ALang.REMOVE}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_PLUGIN);
     if (!match[1].startsWith('__')) match[1] = '__' + match[1];
     var plugin = await Db.PluginDB.findAll({ where: {name: match[1]} });
