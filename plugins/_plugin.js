@@ -127,7 +127,7 @@ Asena.addCommand({pattern: 'plugin$', fromMe: true, dontAddCommandList: false, d
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('Neotro23') ? msg : unmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + '🧚‍♂️ \n' + vf +'\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '👩‍🦰 \n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
