@@ -345,19 +345,19 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...▶')}`);
             }
             else if (config.WELCOME == 'gif' || config.WELCOME == 'Gif' || config.WELCOME == 'GIF' || config.WELCOME == 'GIf' ) {
             if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-                    // Thanks to ichus-Sophia
+                    
                     var gb = await getMessage(msg.key.remoteJid, 'goodbye');
                     if (gb !== false) {
-                        var sewqueenimage = await axios.get(config.BYE_GIF, { responseType: 'arraybuffer' })
-                        await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                        var tn = await axios.get(config.BYE_GIF, { responseType: 'arraybuffer' })
+                        await conn.sendMessage(msg.key.remoteJid, Buffer.from(tn.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
                     }
                     return;
                 } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-                    // Thanks to Ravindu Manoj
+                    
                     var gb = await getMessage(msg.key.remoteJid);
                     if (gb !== false) {
-                    var sewqueenimage = await axios.get(config.WEL_GIF, { responseType: 'arraybuffer' })
-                    await conn.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                    var tn = await axios.get(config.WELCOME_GIF, { responseType: 'arraybuffer' })
+                    await conn.sendMessage(msg.key.remoteJid, Buffer.from(tn.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
                     }
                     return;
                 }
