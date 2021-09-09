@@ -59,7 +59,7 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex2 = new RegExp('.darkspam')
         let regex3 = new RegExp('sewQueen')
         let regex4 = new RegExp('sew')
-        let regex5 = new RegExp('*corona☠*')
+        let regex5 = new RegExp('☠')
         let regex6 = new RegExp('sex')
         let regex7 = new RegExp('Sew')
         let regex8 = new RegExp('*☠Bang')
