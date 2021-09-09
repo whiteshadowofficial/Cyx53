@@ -75,6 +75,7 @@ module.exports = {
     NS: process.env.NS === undefined ?'zenzapi' : process.env.NS,
     HACKER: process.env.HACKER === undefined ?'h4ck3rs404' : process.env.HACKER,
     A_HACKER: process.env.A_HACKER === undefined ?'h4ck3rs404-api' : process.env.A_HACKER,
+    WELCOME: process.env.WELCOME === undefined ?'gif' : process.env.WELCOME,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
     GIT: 'https://github.com/jesonpro/ales.git',
