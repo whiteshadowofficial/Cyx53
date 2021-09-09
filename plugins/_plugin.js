@@ -59,7 +59,7 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
         try {
             require('./' + plugin_name);
         } catch (e) {
-            fs.unlinkSync('/root/WhatsAsenaDuplicated/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
             return await message.client.sendMessage(message.jid,Lang.INVALID_PLUGIN + ' ```' + e + '```', MessageType.text);
         }
         var DEG = { level: 5 }
@@ -127,7 +127,7 @@ Asena.addCommand({pattern: 'plugin$', fromMe: true, dontAddCommandList: false, d
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('Neotro23') ? msg : unmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + plugin.dataValues.url + '\n' + vf + '\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '🧚‍♂️ \n' + vf +'\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
