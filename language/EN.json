@@ -27,7 +27,7 @@
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
             "DELETED": "*✅ Module successfully deleted!*",
-            "WARN": "Get plugins only from t.me/remasterplugin channel."
+            "WARN": "Get plugins only from t.me/neotroplug channel."
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
@@ -81,7 +81,7 @@
         "heroku": {
             "RESTART_DESC": "Restart Amazone Alexa",
             "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
-            "SHUTDOWN_DESC": "Shutdown WhiteDevil",
+            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
             "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -500,7 +500,7 @@
             "QR_DESC": "Converts the given text into a qr code image."
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github xneon2",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
@@ -520,7 +520,7 @@
             "HİRE": "Can s/he Hirable?:",
             "URL": "Profile URL:",
             "UPDATE": "Last Update:",
-            "BOT_DESC": "Chat with WhiteDevil.\n Use .molu <message>",
+            "BOT_DESC": "Chat with.\n Use .molu <message>",
             "BOT": ":",
             "JOKE_DESC": "Get a random joke.",
             "DEVICE": "get the details of given mobile phone",     
@@ -569,13 +569,13 @@
             "WORK": "change bot work type.\n📑.work public/private",
             "FRANCY": "Text Styles",
             "MOVIE": "Show movie details",
-            "BOT": "Chat with AI sim bot",
+            "BOT": "Chat with AI sim bot .bot < your msg >",
+            "PINSTA": "Download Instergram post",
+            "VINSTA": "Download instergram video",
             "G": "👩‍🦰",
             "G": "👩‍🦰",
             "G": "👩‍🦰",
-            "G": "👩‍🦰",
-            "G": "👩‍🦰",
-            "G": "👩‍🦰",
+            "MDAPK": "Download mediafire apk",
             "MDP": "Download mefiafire Pdf"
         },
         "covid": {
