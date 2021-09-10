@@ -8,9 +8,9 @@ let Language = require('../language');
 let Lang = Language.getString('amazone');
 const Config = require('../config');
 
-if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'loli ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+
+    Asena.addCommand({ pattern: 'loli ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/randomloli`, { responseType: 'arraybuffer' })
 
@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'ava ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'ava ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/avatar?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
 
@@ -26,7 +26,7 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'kemo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'kemo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/kemonomimi?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
 
@@ -34,7 +34,7 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'wifu ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'wifu ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
 
        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/waifu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
     }));
 
 
-    Asena.addCommand({ pattern: 'awoo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'awoo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
         
         var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/awoo?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'private') {
     }));   
     
     
-    Asena.addCommand({ pattern: 'shinobu ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'shinobu ?(.*)', fromMe: tk, dontAddCommandList: true}, (async (message, match) => {
         
         var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/shinobu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
@@ -60,7 +60,7 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'megumin ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'megumin ?(.*)', fromMe: tk, dontAddCommandList: true}, (async (message, match) => {
         
 
         var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/megumin?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
@@ -69,7 +69,7 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'alist ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
+    Asena.addCommand({ pattern: 'alist ?(.*)', fromMe: tk, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
 
     }));
 
@@ -80,82 +80,3 @@ if (Config.WORKTYPE == 'private') {
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
     
     }));
-
-}
-
-else if (Config.WORKTYPE == 'public') {
-
-    Asena.addCommand({ pattern: 'loli ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-        
-
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/randomloli`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-    Asena.addCommand({ pattern: 'ava ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-      
-        var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/avatar?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-    Asena.addCommand({ pattern: 'kemo ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-      
-        var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/kemonomimi?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-    Asena.addCommand({ pattern: 'wifu ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-        
-
-        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/waifu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-    Asena.addCommand({ pattern: 'awoo ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-       
-
-        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/awoo?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-        }));  
-
-
-
-    Asena.addCommand({ pattern: 'shinobu ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-        
-        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/shinobu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-
-    Asena.addCommand({ pattern: 'megumin ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-        
-        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/megumin?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-
-    Asena.addCommand({ pattern: 'alist ?(.*)', fromMe: false, deleteCommand: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
-
-    }));
-
-    Asena.addCommand({ pattern: 'neko ?(.*)', fromMe: false, dontaddCommandList: true}, (async (message, match) => {
-
-       var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/neko?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
-    
-    }));
-    
-}
