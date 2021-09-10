@@ -2,15 +2,13 @@
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-/*const got = require('got');
-const fs = require('fs');*/
 const axios = require('axios');
-
 const Language = require('../language');
-const Lang = Language.getString('weather');
+const Lang = Language.getString('amazone');
 const { errorMessage, infoMessage } = require('../helpers');
+let td = config.WORKTYPE == 'public' ? false : true
 
-Asena.addCommand({ pattern: 'twt ?(.*)', fromMe: false,  dontAddCommandList: true, desc: "download from twitter links" }, async (message, match) => {
+Asena.addCommand({ pattern: 'twt ?(.*)', fromMe: td,  dontAddCommandList: false, desc: Lang.TWT }, async (message, match) => {
 
     const userName = match[1]
 
@@ -51,7 +49,7 @@ Asena.addCommand({ pattern: 'twt ?(.*)', fromMe: false,  dontAddCommandList: tru
 
 
 
-Asena.addCommand({ pattern: 'show ?(.*)', fromMe: false , desc: "Get info related to tv series and shows"}, async (message, match) => {
+Asena.addCommand({ pattern: 'show ?(.*)', fromMe: td , desc: Lang.SHOW}, async (message, match) => {
 
     const userName = match[1]
 
@@ -78,31 +76,6 @@ Asena.addCommand({ pattern: 'show ?(.*)', fromMe: false , desc: "Get info relate
       })
       .catch(
         async (err) => await message.sendMessage(errorMessage("Not Found" )),
-      )
-  },
-)
-
-Asena.addCommand({ pattern: 'show ?(.*)', fromMe: false , dontAddCommandList: true}, async (message, match) => {
-
- const userName = match[1]
-    
-  await axios
-      .get(`http://api.tvmaze.com/search/shows?q=${userName}`)
-      .then(async (response) => {
-        const {
-          original,
-        } = response.data[0].show.image
-
-        const profileBuffer = await axios.get(original, {responseType: 'arraybuffer'})
-     
-        const msg = ``
-       
-        await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg,
-        })
-      })
-      .catch(
-        async (err) => await message.sendMessage(""),
       )
   },
 )
