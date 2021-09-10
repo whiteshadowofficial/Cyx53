@@ -8,10 +8,12 @@ const Neotro = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Language = require('../language');
+let config = require('../config');
 const Lang = Language.getString('weather');
+let td = config.WORKTYPE == 'public' ? false : true
 
 
-Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Neotro.addCommand({on: 'text', fromMe: td, deleteCommand: false}, (async (message, match) => {
     if (message.jid === '919562803423-1627735504@g.us') {
 
              return;
