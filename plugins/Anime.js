@@ -108,7 +108,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Neotro.addCommand({pattern: 'anime', fromMe: false, desc: Lang.ANIME_DESC}, (async (message, match) => {
+    Neotro.addCommand({pattern: 'anime', fromMe: false, desc: Lang.ANIM_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
 
