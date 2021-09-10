@@ -589,6 +589,12 @@
             "ADON_MISSING": "```Command disabled.```",
             "ADON_SUCCESS": "```✅Success```",
             "ADON_INVALID": "```විධානය අවලංගුය.```",
+            "BOT": ":",
+            "A": "📑",
+            "B": "📑",
+            "C": "👩‍🦰",
+            "D": "📑",
+            "E": "👩‍🦰",
             "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
         },
         "covid": {
