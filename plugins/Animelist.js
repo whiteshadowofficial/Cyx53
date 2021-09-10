@@ -7,7 +7,7 @@ const axios = require('axios');
 let Language = require('../language');
 let Lang = Language.getString('amazone');
 const Config = require('../config');
-
+let tk = Config.WORKTYPE == 'public' ? false : true
 
 
     Asena.addCommand({ pattern: 'loli ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
