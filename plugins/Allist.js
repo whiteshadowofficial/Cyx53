@@ -46,7 +46,7 @@ Amazone.addCommand({pattern: 'menu', fromMe: true, desc: Lang.MENU}, (async (mes
 
 if (Config.WORKTYPE == 'public') {
 
-Amazone.addCommand({pattern: 'menu', fromMe: false, desc: Lang.MENU}, (async (message, match) => {
+Amazone.addCommand({pattern: 'menu', fromMe: false, dontaddCommandList:true}, (async (message, match) => {
 // send a list message!
     const rows = [
         {title: '📑මූලික උදව් | MAIN HELP!', description: "⚙Bot පිළිබද අවබෝධයක් සහ මූලික උදව්.", rowId:"rowid1"},
