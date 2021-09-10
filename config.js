@@ -77,6 +77,7 @@ module.exports = {
     HACKER: process.env.HACKER === undefined ?'h4ck3rs404' : process.env.HACKER,
     A_HACKER: process.env.A_HACKER === undefined ?'h4ck3rs404-api' : process.env.A_HACKER,
     WELCOME: process.env.WELCOME === undefined ?'gif' : process.env.WELCOME,
+    AI_BOT: process.env.AI_BOT === undefined ?'true' : process.env.AI_BOT,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
