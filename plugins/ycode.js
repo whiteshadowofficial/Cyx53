@@ -19,7 +19,7 @@ const NEED_WORD = "*ඔබ Ebook URL එකක් ඇතුළත් කළ ය�
 
 Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
-      var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}58507`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -28,7 +28,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       }));
 Asena.addCommand({pattern: '2book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
-      var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}58508`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -46,7 +46,7 @@ Asena.addCommand({pattern: '3book ?(.*)', fromMe: true, dontAddCommandList: true
       }));
 Asena.addCommand({pattern: '4book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
-      var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}58511`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -55,7 +55,7 @@ Asena.addCommand({pattern: '4book ?(.*)', fromMe: true, dontAddCommandList: true
       }));
 Asena.addCommand({pattern: '5book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
-      var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}58513`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
