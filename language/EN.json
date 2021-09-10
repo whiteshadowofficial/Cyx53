@@ -580,7 +580,7 @@
             "SHOW": "show tv series details",
             "TWT": "Download video from twitter",
             "TTP": "get ttp list",
-            "M": "👩‍🦰"
+            "WALL": "Random Esthetic wallpaper"
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
