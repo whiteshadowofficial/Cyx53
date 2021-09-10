@@ -1,11 +1,7 @@
-/* Copyright (C) 2020 TOXIC DEVIL
-
-CODDED BY TOXIC DEVIL
-
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
-
 you may not use this file except in compliance with the License.
-WhatsAsenaPublic - TOXIC DEVIL
+NEOTROX - TEENUHX
 */
 
 const Asena = require('../events');
@@ -19,7 +15,7 @@ const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WELCOME == 'gif') {
 
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
@@ -27,14 +23,14 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "                 *🎭NEOTRO-X* \n     *Bang!! Bang!! Im Alive Now*\n\n*◈Version* ● ▷5.2.0 Global Stable\n*◈Branch* ● ▷ Vancino\n*◈About* ● ▷ *🎭ɴᴇᴏᴛʀᴏ-𝙭🧞is an easy used WhatsApp robot. Watch the video to easily set up :|▸https://youtu.be/mcEeIspWOpY*\n*◯Owner* ▷ ▸https://Wa.me/+94766598862◂\n*Moders* ●▷\n◼ ᴄᴜɪᴢᴇʀ\n\n■ ᴛᴜʀᴜ\n■ᴍᴀꜱʜ-ᴢ\n\n*◈Main Group* ▷https://chat.whatsapp.com/ITlYi2teEXr0SvULyznQgX\n*◈Support group* ▷https://chat.whatsapp.com/LuLTEKm22fp8gv4ltCmKMo\n\n*ᴛʜᴀɴᴋ ꜰᴏʀ ᴜꜱɪɴɢ ɴᴇᴏᴛʀᴏ-𝘅🧞🎭*"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n\n\n*👩‍🦰Amazone Alexa*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8_*▷⚡Official Pluggins Group*\n◈_https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT_"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🎭Powered By Teenuh-X*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
      }
     }));
 
@@ -59,14 +55,14 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "                 *🎭NEOTRO-X* \n     *Bang!! Bang!! Im Alive Now*\n\n*◈Version* ● ▷5.2.0 Global Stable\n*◈Branch* ● ▷ Vancino\n*◈About* ● ▷ *🎭ɴᴇᴏᴛʀᴏ-𝙭🧞is an easy used WhatsApp robot. Watch the video to easily set up :|▸https://youtu.be/mcEeIspWOpY*\n*◯Owner* ▷ ▸https://Wa.me/+94766598862◂\n*Moders* ●▷\n◼ ᴄᴜɪᴢᴇʀ\n\n■ ᴛᴜʀᴜ\n■ᴍᴀꜱʜ-ᴢ\n\n*◈Main Group* ▷https://chat.whatsapp.com/ITlYi2teEXr0SvULyznQgX\n*◈Support group* ▷https://chat.whatsapp.com/LuLTEKm22fp8gv4ltCmKMo\n\n*ᴛʜᴀɴᴋ ꜰᴏʀ ᴜꜱɪɴɢ ɴᴇᴏᴛʀᴏ-𝘅🧞🎭*"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n\n\n*👩‍🦰Amazone Alexa*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8_*▷⚡Official Pluggins Group*\n◈_https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT_"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🎭Powered By Teenuh-X*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
      }
     }));
 
