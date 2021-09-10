@@ -1,3 +1,4 @@
+h
 /* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@ let Lang = Language.getString('amazone');
 
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'esthetic ?(.*)', fromMe: false, Lang.WALL }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'esthetic ?(.*)', fromMe: false, desc: Lang.WALL }, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/estetikpic?apikey=THEVINDUapi`, { responseType: 'arraybuffer' })
 
@@ -28,7 +29,7 @@ if (Config.WORKTYPE == 'public') {
 
 else if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'esthetic ?(.*)', fromMe: true, Lang.WALL }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'esthetic ?(.*)', fromMe: true, desc: Lang.WALL }, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/estetikpic?apikey=THEVINDUapi`, { responseType: 'arraybuffer' })
 
