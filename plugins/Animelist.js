@@ -69,11 +69,11 @@ if (Config.WORKTYPE == 'private') {
     
     }));
 
-    Asena.addCommand({ pattern: 'animelist ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
+    Asena.addCommand({ pattern: 'alist ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
 
     }));
 
-    Asena.addCommand({ pattern: 'neko ?(.*)', fromMe: true, dontaddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'neko ?(.*)', fromMe: true, dontaddCommandList: true}, (async (message, match) => {
 
        var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/neko?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
@@ -146,7 +146,7 @@ else if (Config.WORKTYPE == 'public') {
     
     }));
 
-    Asena.addCommand({ pattern: 'animelist ?(.*)', fromMe: false, deleteCommand: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
+    Asena.addCommand({ pattern: 'alist ?(.*)', fromMe: false, deleteCommand: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
 
     }));
 
