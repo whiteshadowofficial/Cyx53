@@ -578,7 +578,7 @@ if (config.WORKTYPE == 'private') {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 25 ? result.length : 25); i++) {
+            for (var i = 0; i < (result.length < 8 ? result.length : 8); i++) {
                 var get = got(result[i].url, {https: {rejectUnauthorized: false}});
                 var stream = get.buffer();
                 
@@ -587,7 +587,7 @@ if (config.WORKTYPE == 'private') {
                 });
             }
 
-            message.reply(Lang.IMG.format((result.length < 25 ? result.length : 25), match[1]));
+            message.reply(Lang.IMG.format((result.length < 8 ? result.length : 8), match[1]));
         });
     }));
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ IMG END
@@ -1067,7 +1067,7 @@ Asena.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (asyn
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 15 ? result.length : 15); i++) {
+            for (var i = 0; i < (result.length < 8 ? result.length : 8); i++) {
                 var get = got(result[i].url, {https: {rejectUnauthorized: false}});
                 var stream = get.buffer();
                 
@@ -1076,7 +1076,7 @@ Asena.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (asyn
                 });
             }
 
-            message.reply(Lang.IMG.format((result.length < 15 ? result.length : 15), match[1]));
+            message.reply(Lang.IMG.format((result.length < 8 ? result.length : 8), match[1]));
         });
     }));
 //░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
