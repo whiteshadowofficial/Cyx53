@@ -569,7 +569,7 @@
             "WORK": "change bot work type.\n📑.work public/private",
             "FRANCY": "Text Styles",
             "MOVIE": "Show movie details",
-            "BOT": "Chat with AI sim bot .bot < your msg >",
+            "BOT_DESC": "Chat with AI sim bot .bot < your msg >",
             "PINSTA": "Download Instergram post",
             "VINSTA": "Download instergram video",
             "PKG": "install official Amazone plugins",
@@ -580,7 +580,16 @@
             "SHOW": "show tv series details",
             "TWT": "Download video from twitter",
             "TTP": "get ttp list",
-            "WALL": "Random Esthetic wallpaper"
+            "WALL": "Random Esthetic wallpaper",
+            "AI": "AI chat bot.",
+            "BOT": ":",
+            "NOT_FOUNDAC": "*⛔Invaild Request*",
+            "NEED_LOCATIONA": "*⛔Invaild Request*",
+            "ADON_DESC": "AI  Chat bot on / off.\n⌨️example: AI chat bot on, .adon AI_BOT:true use command.\nAI chat bot off, .adon AI_BOT:false use command.",
+            "ADON_MISSING": "```Command disabled.```",
+            "ADON_SUCCESS": "```✅Success```",
+            "ADON_INVALID": "```විධානය අවලංගුය.```",
+            "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
