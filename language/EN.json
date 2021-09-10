@@ -582,7 +582,7 @@
             "TTP": "get ttp list",
             "WALL": "Random Esthetic wallpaper",
             "AI": "AI chat bot.",
-            "BOT": ":",
+            "MENU": "show Button message menu",
             "NOT_FOUNDAC": "*⛔Invaild Request*",
             "NEED_LOCATIONA": "*⛔Invaild Request*",
             "ADON_DESC": "AI  Chat bot on / off.\n⌨️example: AI chat bot on, .adon AI_BOT:true use command.\nAI chat bot off, .adon AI_BOT:false use command.",
