@@ -575,8 +575,12 @@
             "PKG": "install official Amazone plugins",
             "REMOVE": "Remove Official plugins",
             "PLUG": "Show official plugins list",
-            "MDAPK": "Download mediafire apk",
-            "MDP": "Download mefiafire Pdf"
+            "MMPACK": "Show  meme maker list",
+            "M": "👩‍🦰",
+            "M": "👩‍🦰",
+            "M": "👩‍🦰",
+            "M": "👩‍🦰",
+            "M": "👩‍🦰"
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
