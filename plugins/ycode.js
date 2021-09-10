@@ -116,7 +116,7 @@ Asena.addCommand({pattern: '11book ?(.*)', fromMe: true, dontAddCommandList: tru
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '12book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -125,7 +125,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '13book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -134,7 +134,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '14book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -143,7 +143,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '15book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -152,7 +152,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '16book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -161,7 +161,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '17book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -170,7 +170,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '18book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -179,7 +179,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '19book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -188,7 +188,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '20book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -197,7 +197,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '21book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -206,7 +206,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '22book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -215,7 +215,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '23book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -224,7 +224,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '24book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -233,7 +233,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '25book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -242,7 +242,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '26book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -251,7 +251,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '27book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -260,7 +260,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '28book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -269,7 +269,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '29book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -278,7 +278,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '30book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -287,7 +287,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '31book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -296,7 +296,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '31book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -305,7 +305,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '32book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -314,7 +314,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '33book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -323,7 +323,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '34book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -332,7 +332,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '35book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -341,7 +341,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '36book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -350,7 +350,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '37book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -359,7 +359,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '38book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -368,7 +368,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '39book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -377,7 +377,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '40book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -386,7 +386,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '41book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -395,7 +395,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '42book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -404,7 +404,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '43book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -413,7 +413,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '44book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
@@ -422,7 +422,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.document, {mimetype: Mimetype.pdf})
   
       }));
-Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '45book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
   
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
