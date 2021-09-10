@@ -2,7 +2,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 NEOTROX - TEENUHX
-*/Neutro
+*/
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -11,7 +11,7 @@ const got = require('got');
 const Config = require('../config');
 
 const Language = require('../language');
-const Lang = Language.getString('AIbot');
+const Lang = Language.getString('amazone');
 
 const heroku = new Heroku({
     token: Config.HEROKU.API_KEY
