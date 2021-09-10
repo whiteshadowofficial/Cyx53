@@ -198,7 +198,7 @@
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
-            "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
+            "TRANSLATE_USAGE": ".trt en si (From english to sinhala)",
             "NEED_REPLY": "```Please reply to any message!```",
             "LANG": "Language",
             "FROM": "Translated Language",
@@ -215,7 +215,7 @@
             "DOWNLOADING_SONG": "\n*Searching*\n",
             "UPLOADING_SONG": "\n*Feel the song*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlV5qeBc```",
             "DOWNLOADING_VIDEO": "*Downloading*",
             "UPLOADING_VIDEO": "*Uploading*",
             "YT_DESC": "It searchs on YouTube.",
@@ -230,7 +230,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram🧞‍♂️```"
+            "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
