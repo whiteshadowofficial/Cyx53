@@ -41,7 +41,7 @@ Neotro.addCommand({on: 'text', fromMe: td, deleteCommand: false}, (async (messag
              await message.client.sendMessage(message.jid,'\n👩‍🦰', MessageType.text, {quoted: message.data })
          } 
          else if (regex2.test(message.message)) {
-            await message.client.sendMessage(message.jid,'👩‍🦰' , MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*👩‍🦰Amazone Alexa Anime List*\n\n╔═════════▷\n╠🌼: .loli\n╠🌼: .wifu\n╠🌼: .neko\n╠🌼: .ava\n╠🌼: .kemo\n╠🌼: .awoo\n╠🌼: .shinobu\n╠🌼: .megumin\n╚═════════▷' , MessageType.text, {quoted: message.data })
          }
           else if (regex3.test(message.message)) {
              await message.client.sendMessage(message.jid,'', MessageType.text, {quoted: message.data })
