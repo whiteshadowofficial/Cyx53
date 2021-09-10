@@ -14,7 +14,7 @@ let Lang = Language.getString('amazone');
 const ll ="*Need some Word*"
 const Ln = "*▷🎭ɴᴇᴏᴛʀᴏ-𝙭🪐මීම් ලැයිස්තුව ඔබට අවශ්‍ය ලෙස මීම්ස් සකසා ගැනීමට◁* "
 const code = "*╔═════◉ᴀᴍᴀᴢᴏɴᴇ◉═════╗*\n           👩‍🦰ᴀᴍᴀᴢᴏɴᴇ-x🪐\n*❖═මීම් ලැයිස්තුව 👩‍🦰 Meme Pack═❖*\n\n*💠.yasai       ❴your text❵*\n*💠.uddika    ❴your text❵*\n*💠.aah          ❴your text❵*\n*💠.sir            ❴your text❵*\n*💠.my3         ❴your text❵*\n*💠.fuck         ❴your text❵*\n*💠.hii             ❴your text❵*\n*💠.asai          ❴your text❵*\n*💠.hapoi       ❴your text❵*\n*💠.anura       ❴your text❵*\n*💠.gemba       ❴your text❵*\n*💠.wow       ❴your text❵*\n*💠.hapo       ❴your text❵*\n*💠.babah       ❴your text❵*\n*💠.mcn       ❴your text❵*\n*💠.nah       ❴your text❵*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Template Credit: එ.මි.ස ¡v**"
-let td = config.WORKTYPE == 'public' ? false : true
+let td = Config.WORKTYPE == 'public' ? false : true
     
       Asena.addCommand({pattern: 'mmpack', fromMe: td, desc: Lang.MMPACK,}, (async (message, match) => {
 
