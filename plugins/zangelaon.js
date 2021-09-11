@@ -1,7 +1,7 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+NEOTROX - TEENUHX
 */
 
 const Asena = require('../events');
@@ -25,18 +25,18 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         BGM_off = 'bgm option turned off'
     }
     if (config.LANG == 'EN') {
-        l_dsc = 'turn on and turn of bgm. -bot owner command'
+        l_dsc = 'turn on and turn of Talking Angela. -bot owner command'
         alr_on = 'Antilink is already open!'
         alr_off = 'Antilink is currently closed!'
-        BGM_on = 'bgm option turned on!'
-        BGM_off = 'bgm option turned off'
+        BGM_on = 'talking Angela option turned on!'
+        BGM_off = 'talking Angela option turned off'
     }
-    if (config.LANG == 'AZ') {
-        l_dsc = 'Antilink alətini aktivləşdirir.'
+    if (config.LANG == 'DI') {
+        l_dsc = 'Talking Angela ක්‍රියාත්මක කිරීම.'
         alr_on = 'Antilink hazırda açıqdır!'
         alr_off = 'Antilink hazırda bağlıdır!'
-        BGM_on = '*bgm option turned on*'
-        BGM_off = '*bgm option turned off*'
+        BGM_on = '*Angela ක්‍රියාත්මකයි.*'
+        BGM_off = '*Angela අක්‍රියයි.*'
     }
     if (config.LANG == 'HI') {
         l_dsc = 'एंटीलिंक टूल को सक्रिय करता है।'
@@ -80,18 +80,18 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         BGM_on = 'bgm option turned on'
         BGM_off = 'bgm option turned off'
     }
-    Asena.addCommand({pattern: 'bgm ?(.*)', fromMe: true, desc: l_dsc, usage: '.bgm on / off' }, (async (message, match) => {
+    Asena.addCommand({pattern: 'angela ?(.*)', fromMe: true, desc: l_dsc, usage: '.angela on / off' }, (async (message, match) => {
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['BGM_FILTER']: 'false'
+                        ['ANGELA_FILTER']: 'false'
                     } 
                 });
                 await message.sendMessage(BGM_off)
         } else if (match[1] == 'on') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['BGM_FILTER']: 'true'
+                        ['ANGELA_FILTER']: 'true'
                     } 
                 });
                 await message.sendMessage(BGM_on)
