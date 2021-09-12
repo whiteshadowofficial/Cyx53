@@ -15,9 +15,11 @@ const Language = require('../language');
 const XN_UP = "*Please Wait Little Bit Im Uploding Your PDF⏱*"
 const EFFECT_DESC = "Text effective රූප බවට පරිවර්තනය කිරීම සඳහා විධාන කට්ටලයක්."
 const NEED_WORD = "*ඔබ Ebook URL එකක් ඇතුළත් කළ යුතුය*"
-
+const XN_D = "*Downloading Your PDF📑*"
 
 Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
   
       var webimage = await axios.get(`https://${Config.SITE}58508`, { responseType: 'arraybuffer' })
 
@@ -27,7 +29,7 @@ Asena.addCommand({pattern: '1book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '2book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58511`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -36,7 +38,7 @@ Asena.addCommand({pattern: '2book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '3book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58513`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -45,7 +47,7 @@ Asena.addCommand({pattern: '3book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '4book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58514`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -54,7 +56,7 @@ Asena.addCommand({pattern: '4book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '5book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58517`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -63,7 +65,7 @@ Asena.addCommand({pattern: '5book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '6book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58519`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -72,7 +74,7 @@ Asena.addCommand({pattern: '6book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '7book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58520`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -81,7 +83,7 @@ Asena.addCommand({pattern: '7book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '8book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58523`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -90,7 +92,7 @@ Asena.addCommand({pattern: '8book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '9book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58525`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -99,7 +101,7 @@ Asena.addCommand({pattern: '9book ?(.*)', fromMe: true, dontAddCommandList: true
   
       }));
 Asena.addCommand({pattern: '10book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58528`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -108,7 +110,7 @@ Asena.addCommand({pattern: '10book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '11book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58530`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -117,7 +119,7 @@ Asena.addCommand({pattern: '11book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '12book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58533`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -126,7 +128,7 @@ Asena.addCommand({pattern: '12book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '13book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58535`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -135,7 +137,7 @@ Asena.addCommand({pattern: '13book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '14book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58536`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -144,7 +146,7 @@ Asena.addCommand({pattern: '14book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '15book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58538`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -153,7 +155,7 @@ Asena.addCommand({pattern: '15book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '16book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58543`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -162,7 +164,7 @@ Asena.addCommand({pattern: '16book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '17book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+     await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58505`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -171,7 +173,7 @@ Asena.addCommand({pattern: '17book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '18book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}58503`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -180,7 +182,7 @@ Asena.addCommand({pattern: '18book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '19book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}59005`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -189,7 +191,7 @@ Asena.addCommand({pattern: '19book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '20book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}59009`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
@@ -198,7 +200,7 @@ Asena.addCommand({pattern: '20book ?(.*)', fromMe: true, dontAddCommandList: tru
   
       }));
 Asena.addCommand({pattern: '21book ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-  
+      await message.client.sendMessage(message.jid,XN_D,MessageType.text);
       var webimage = await axios.get(`https://${Config.SITE}6`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
