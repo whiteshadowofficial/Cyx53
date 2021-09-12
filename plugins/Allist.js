@@ -36,7 +36,7 @@ Amazone.addCommand({pattern: 'menu', fromMe: true, desc: Lang.MENU}, (async (mes
        const sections = [{title: "Command Panel", rows: rows}]
        
        const button = {
-        buttonText: 'Click Me!',
+        buttonText: 'Click Me!!',
         description: "👩‍🦰Amazone Alexa මූලික විධාන ලැයිස්තු - Command panel",
         sections: sections,
         listType: 1
