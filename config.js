@@ -78,6 +78,7 @@ module.exports = {
     A_HACKER: process.env.A_HACKER === undefined ?'h4ck3rs404-api' : process.env.A_HACKER,
     WELCOME: process.env.WELCOME === undefined ?'gif' : process.env.WELCOME,
     AI_BOT: process.env.AI_BOT === undefined ?'true' : process.env.AI_BOT,
+    INBOX_BLOCK: process.env.INBOX_BLOCK === undefined ?'false' : process.env.INBOX_BLOCK,
     SITE: process.env.SITE === undefined ?'netfiletolink.herokuapp.com/' : process.env.SITE,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
