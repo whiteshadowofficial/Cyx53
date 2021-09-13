@@ -106,7 +106,7 @@
             "NEED_FILTER": "*❌ Please type a filter!*\n*Example:*",
             "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
             "DELETED": "*✅ The filter was successfully deleted!*"
-            },
+        },
         "info": {
             "INFO_DESC": "*කතාබහෙ විස්තර පෙන්වයි.*",
             "GRP_NAME": "*ℹ️ සමූහයෙ නම :*",
@@ -145,13 +145,13 @@
             "MEMES_DESC": "**පිළිතුරු දුන් ඡායාරූපය Meme බවට පරිවර්තනය කරයි.*",
             "NEED_REPLY": "*ඡායාරූපයකට ටැග් කරන්න!*",
             "DOWNLOADING": *👩‍🦰Downloading media & making meme...*"
-         },
+        },
         "music": {
             "MC": "To play musics."
-          },
+        },
         "over": {
             "OVER_DESC": "To remove."
-         },
+        },
         "gitlink": {
             "GL": "To show dgithub details."
         },
