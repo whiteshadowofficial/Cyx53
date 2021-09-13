@@ -445,10 +445,10 @@
             "LİNK": "You must enter link!"
         },
         "voicy": {
-            "NEED_REPLY": "```Please reply to any message!```",
-            "ONLY_AUDIO":"```Only audio file is accepted.```",
-            "USAGE": "It converts audio to text.",
-            "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
+            "NEED_REPLY": "```කරුණාකර ඕනෑම පණිවිඩයකට mention දෙන්න!```",
+            "ONLY_AUDIO":"```ශ්රව්ය ගොනුව පමණක් පිළිගනු ලැබේ.```",
+            "USAGE": "එය mp3 text බවට පරිවර්තනය කරයි.",
+            "TEXT": "*හේයි! මම මේ voice ට ඇහුම්කන් දුන්නෙමි.:* \n\n"
         },
         "notes": {
             "NOTES_USAGE": "*ඔබගේ පවතින සියලුම සටහන් පෙන්වයි.*",
