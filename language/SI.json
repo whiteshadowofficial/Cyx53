@@ -118,19 +118,18 @@
             "PRO_DES": "*🗨️ විස්තරය :*"
         },
         "greetings": {
-            "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
-            "NOT_SET_WELCOME": "*You don't set the welcome message yet.!*\n**To set:** ```.welcome hi && hi#how are you?```",
-            "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
-            "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome hi && hi#how are you?```",
-            "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
-            "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
-            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
-            "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
-            "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye bye && bye#see ya```",
-            "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
-            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye bye && bye#see ya```",
-            "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
+            "WELCOME_DESC": "එය පිළිගැනීමේ පණිවිඩය සකසයි. ඔබ එය හිස්ව තැබුවහොත් එය පිළිගැනීමේ පණිවිඩය පෙන්වයි.",
+            "NOT_SET_WELCOME": "*ඔබ තවමත් පිළිගැනීමේ පණිවිඩය සකසා නැත.!*\n**සැකසීමට:** ```.welcome ඔබගේ පිළිගැනීමේ පණිවිඩය```",
+            "WELCOME_ALREADY_SETTED": "*✅ පිළිගැනීමේ පණිවිඩය දැනටමත් සකසා ඇත!*\n*පණිවුඩය:* ```",
+            "NEED_WELCOME_TEXT": "*පිළිගැනීමේ පණිවිඩය සැකසීමට ඔබ පණිවිඩයක් ලිවිය යුතුය.*\n*Example:* ```.welcome WELCOME!```",
+            "WELCOME_DELETED": "*✅ පිළිගැනීමේ පණිවිඩය සාර්ථකව මකා දමා ඇත!*",
+            "WELCOME_SETTED": "*✅ පිළිගැනීමේ පණිවිඩය සාර්ථකව සකසා ඇත!*",
+            "GOODBYE_DESC": "සමුගැනීමේ පණිවිඩය සකසයි. ඔබ හිස්ව තැබුවහොත්, එය සමුගැනීමේ පණිවිඩයයි.",
+            "NOT_SET_GOODBYE": "*ඔබ සමුගැනීමේ පණිවිඩයක් සකසා නැත!*\n*To set:* ```.goodbye ඔබගේ ආයුබෝවන් පණිවිඩය```",
+            "GOODBYE_ALREADY_SETTED": "*✅ සමුගැනීමේ පණිවිඩය සකසා ඇත!*\n*Message:* ```",
+            "NEED_GOODBYE_TEXT": "*සමුගැනීමේ පණිවිඩය සැකසීමට ඔබ පණිවිඩයක් ලිවිය යුතුය.*\n*Example:* ```.goodbye Goodbye!```",
+            "GOODBYE_DELETED": "*✅ සමුගැනීමේ පණිවිඩය සාර්ථකව මකා දමා ඇත!*",
+            "GOODBYE_SETTED": "*✅ සමුගැනීමේ පණිවිඩය සාර්ථකව සකසා ඇත!*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
