@@ -142,7 +142,7 @@
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
+            "MEMES_DESC": "*පිළිතුරු දුන් ඡායාරූපයෙ meme ලෙස අකුරු රදවයි.*",
             "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Downloading media & making meme...```"
          },
@@ -156,7 +156,7 @@
             "GL": "To show dgithub details."
         },
         "ocr": {
-            "OCR_DESC": "Reads the text on the photo you have replied.",
+            "OCR_DESC": "*පිළිතුරු දුන් ඡායාරූපයෙ ඇති අකුරු කියවයි.*",
             "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Media is downloading & reading...```",
             "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
@@ -180,7 +180,7 @@
             "JID_CHAT": "```Chat's JID address: {}```"
         },
         "removebg": {
-            "REMOVEBG_DESC": "Removes the background of the photos.",
+            "REMOVEBG_DESC": "*පිළිතුරු දුන් ඡායාරූපයෙ පසුබිම ඉවත් කරයි.*",
             "NEED_PHOTO": "*Give me a photo!*",
             "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
             "RBGING": "```Removing background...```"
@@ -217,13 +217,13 @@
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
         },
         "sticker": {
-            "STICKER_DESC": "It converts your replied photo or video to sticker.",
+            "STICKER_DESC": "*පිළිතුරු ලබා දෙන ඡායාරූපය හෝ වීඩියෝව ස්ටිකර බවට පරිවර්තනය කරයි.*",
             "NEED_REPLY": "*Reply to a photo or video!*",
             "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
         },
         "system_stats": {
-            "ALIVE_DESC": "Does bot work?",
-            "SYSD_DESC": "Shows the system properties."
+            "ALIVE_DESC": "*බොට් ක්‍රියාකරනවද නැද්ද බව පෙන්වයි.*",
+            "SYSD_DESC": "*System විස්තර ලබාදෙයි.*"
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
@@ -244,11 +244,11 @@
             "WREPLY": "*Please Respond to User's Message to Warning!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating..🧞‍♂️",
+            "UPDATER_DESC": "*නව යතාවත්කාලින කිරීම් පරීක්ෂා කිරීමට*.",
+            "UPDATE": "*ඔබේ Bot සම්පූර්ණයෙන් යතාවත්කාලිනයි.!*",
+            "NEW_UPDATE": "*නව යතාවත්කාලින කිරීමක් ඇත!*\n\n👩‍🦰වෙනස්වීම්:\n```",
+            "UPDATE_NOW_DESC": "යතාවත්කාලින කිරීම් ලබාගනියි..",
+            "UPDATING": "Updating..👩‍🦰",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
             "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
