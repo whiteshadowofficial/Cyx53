@@ -391,13 +391,9 @@
             "MUTE_OPEN": "```The group chat has unmuted!```"
         },
         "unvoice": {
-            "UV_DESC": "Converts audio to sound recording.",
-            "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```",
-            "SPDF_DESC": "Converts a Site into PDF",
-            "SPDF_LINK": "*You Must Enter a URL*",
-            "SPDF_PROC": "```Converting Site into PDF```"
-            
+            "UV_DESC": "Mp3 files, voice message බවට පරිවර්තනය කරයි.",
+            "UV_REPLY": "*ඔබ mp3 file mention දිය යුතුය!*",
+            "UV_PROC": "\n```🔄 ශබ්ද පටිගත කිරීමකට පරිවර්තනය කිරීම..```\n"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
