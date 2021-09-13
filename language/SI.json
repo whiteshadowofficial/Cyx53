@@ -396,22 +396,22 @@
             "UV_PROC": "\n```🔄 ශබ්ද පටිගත කිරීමකට පරිවර්තනය කිරීම..```\n"
         },
         "ffmpeg": {
-            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
-            "FF_PROC": "Applying Effect.."
+            "FF_DESC": "වීඩියෝවට අපේක්ෂිත ffmpeg filter යොදයි.\n⌨️ Example: .ffmpeg fade=in:0:30",
+            "FF_PROC": "\n🔄 Applying Effect..\n"
         },
         "spammer": {
-            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
+            "SPAM_DESC": "*ඔබ එය අක්‍රිය කරන දුරු ස්පැම් පණිවිඩ යවයි.*.\n⌨️ Example: .spam test",
             "NEED_WORD": "*Need Some Words!*",
-            "STOP_SPAMDESC": "Stops spam command.",
+            "STOP_SPAMDESC": "*ස්පෑම් විධාන අක්‍රිය කරයි.*",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
-            "ST_DESC": "Convert the replied photo or video to sticker and send it as spam.",
+            "ST_DESC": "*පිලිතුරු දුන් ස්ටිකරය ස්පෑම් ලෙස යවයි.*",
             "ST_ST": "```Please Don't Reply to Stciker!```\n```Only Reply to Video or Photo!```",
             "ST_NEED": "```You Must Reply To Any Video Or Photo!```",
-            "AU_DESC": "Sends the replied audio as spam.",
+            "AU_DESC": "*පිළිතුරු දුන් Audio ස්පෑම් ලෙස යවයි.*",
             "AU_REP": "```Please Only Reply To Audio File!```",
-            "FOTO_DESC": "Sends the replied photo as spam.",
+            "FOTO_DESC": "*පිළිතුරු දුන් ඡායාරූපය ස්පැම් ලෙස යවයි.*",
             "FOTO_FOT": "```Please Reply To Any Picture!```",
-            "VİD_DESC": "Sends the replied video as spam.",
+            "VİD_DESC": "*පිළිතුරු දුන් වීඩියෝව ස්පැම් ලෙස යවයි*",
             "VİD_NEED": "```Please Reply to Any Video!```"
         },
         "carbon": {
