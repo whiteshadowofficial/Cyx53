@@ -88,7 +88,7 @@
             "GETVAR_DESC": "*Heroku Config ලබාදෙයි*",
             "DELVAR_DESC": "*heroku config var මකාදමයි*",
             "DEL_SUCCESS": "*{} successfully deleted*",
-            "NOT_FOUND": "*no results found for this key*"       
+            "NOT_FOUND": "*no results found for this key*",       
             "DEGİS_NONE": "*Please Enter Any Module Name!* \n\n*.degis afk*\n*.degis alive* << **Variables** >> \n_{pp}: You only need to use it once. Adds your profile photo to the message._ \n_{info}: Shows your status._ \n_{version}: Shows the version of the bot._ \n_{plugin}: Shows the plugin channel._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis welcome* \n*.degis goodbye* \n*.degis kickme*\n*.degis block*\n*.degis unblock*",
             "WR": "*Please use the modules that exists!*",
             "DEGİS_DESC": "*විධාන මොඩූලයන්හි භාවිත වෙනස් කිරීමට*"       
@@ -108,14 +108,14 @@
             "DELETED": "*✅ The filter was successfully deleted!*"
         },
         "info": {
-            "INFO_DESC": "Show chat details",
-            "GRP_NAME": "*ℹ️ Group name :*",
-            "GRP_JID": "*💬 Group JID :*",
-            "GRP_OWN": "*⚜️ Group owner :*",
-            "GRP_COD": "*🆔 Group invite link :*",
-            "GRP_DES": "*🗨️ Group description :*",
-            "PRO_JID": "*💬 User JID :*",
-            "PRO_DES": "*🗨️ Description :*"
+            "INFO_DESC": "*කතාබහෙ විස්තර පෙන්වයි.*",
+            "GRP_NAME": "*ℹ️ සමූහයෙ නම :*",
+            "GRP_JID": "*💬 සමූහයෙ JID :*",
+            "GRP_OWN": "*⚜️ සමූහයෙ හිමිකරු :*",
+            "GRP_COD": "*🆔 ආරාධනා සබැඳිය :*",
+            "GRP_DES": "*🗨️ සමූහයෙ විස්තරය :*",
+            "PRO_JID": "*💬 පුද්ගලයාගෙ JID :*",
+            "PRO_DES": "*🗨️ විස්තරය :*"
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
@@ -143,9 +143,9 @@
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Downloading media & making meme...```"
+            "MEMES_DESC": "**පිළිතුරු දුන් ඡායාරූපය Meme බවට පරිවර්තනය කරයි.*",
+            "NEED_REPLY": "*ඡායාරූපයකට ටැග් කරන්න!*",
+            "DOWNLOADING": *👩‍🦰Downloading media & making meme...*"
          },
         "music": {
             "MC": "To play musics."
