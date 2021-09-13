@@ -68,38 +68,30 @@
             "SECOND": "*තත්පර*"
         },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
+            "TERM_DESC": "server shell විධාන ක්‍රියාත්මක කිරීමට.",
             "GIVE_ME_CODE": "*Give me a code!*"
         },
-        "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
-        },
         "heroku": {
-            "RESTART_DESC": "Restart Amazone Alexa",
-            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
-            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
-            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "GR_DEL": "*Greetings Message Set!*\n*Type* ```.goodbye delete & .welcome delete``` *to remove!*",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ▷▷▷ {}```",
+            "RESTART_DESC": "*Amazone නැවත ආරම්භ කරයි*",
+            "RESTART_MSG": "*🔁 නැවත ආරම්භ වෙමින්...*",
+            "SHUTDOWN_DESC": "*Amazone ක්‍රියාවිරහිත කරයි.*",
+            "SHUTDOWN_MSG": "*ක්‍රියාවිරහිත වෙමින්.. ⛔*",
+            "DYNO_DESC": "*Dyno භාවිතය පෙන්වයි.*",
+            "DYNO_TOTAL": "*Total Quota*",
+            "DYNO_USED": "*Quota used*",
+            "PERCENTAGE": "*Percentage*",
+            "DYNO_LEFT": "*Remaining*",
+            "SETVAR_DESC": "*Heroku Config vars සකසයි.*",
+            "SET_SUCCESS": "සාර්තකව සකසන ලදී.. *{} ▷▷ {}*",
             "KEY_VAL_MISSING": "```Either Key or Value is missing```",
-            "INVALID": "```Invalid key:value format```",
-            "GETVAR_DESC": "Get heroku config var",
-            "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```",
-            "SUCC": "*Successfully Setted Up ✅* \n*Please wait a little while.*",
-            "SUCC_AF": "*To restore, use* ```default```",
-            "DEGİS_NONE": "```Please Enter Any Module Name!``` \n\n*.degis afk*\n*.degis alive* << **Variables** >> \n_{pp}: You only need to use it once. Adds your profile photo to the message._ \n_{info}: Shows your status._ \n_{version}: Shows the version of the bot._ \n_{plugin}: Shows the plugin channel._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis welcome* \n*.degis goodbye* \n*.degis kickme*\n*.degis block*\n*.degis unblock*",
+            "INVALID": "*Invalid key:value format*",
+            "GETVAR_DESC": "*Heroku Config ලබාදෙයි*",
+            "DELVAR_DESC": "*heroku config var මකාදමයි*",
+            "DEL_SUCCESS": "*{} successfully deleted*",
+            "NOT_FOUND": "*no results found for this key*"       
+            "DEGİS_NONE": "*Please Enter Any Module Name!* \n\n*.degis afk*\n*.degis alive* << **Variables** >> \n_{pp}: You only need to use it once. Adds your profile photo to the message._ \n_{info}: Shows your status._ \n_{version}: Shows the version of the bot._ \n_{plugin}: Shows the plugin channel._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis welcome* \n*.degis goodbye* \n*.degis kickme*\n*.degis block*\n*.degis unblock*",
             "WR": "*Please use the modules that exists!*",
-            "DEGİS_DESC": "Changes the text of modules like alive, afk etc.."       
+            "DEGİS_DESC": "*විධාන මොඩූලයන්හි භාවිත වෙනස් කිරීමට*"       
         },
         "bots": {
             "BS": "bot links"
