@@ -51,22 +51,21 @@
             "RENAME": "*සමූහයෙ නම වෙනස් කරයි.*"
         },
         "locate": {
-            "L_DESC": "එය ඔබේ ස්තානය යවයි.",
-            "L_WARN": "කරුණාකර Location සේවා On කර මෙය භාවිතා කරන්න."
+            "L_DESC": "*එය ඔබේ ස්තානය යවයි.*",
+            "L_WARN": "*කරුණාකර Location සේවා On කර මෙය භාවිතා කරන්න.*"
         },
         "afk": {
-            "AFK_DESC": "It makes you AFK - Away From Keyboard.",
+            "AFK_DESC": "*එය ඔබ offline ලෙස පණිවිඩ යවයි.*",
             "IM_AFK": "*I'm AFK now!*",
-            "IM_AFK_NOMD": "I'm AFK now!",
-            "REASON": "Reason",
-            "LAST_SEEN": "Last Seen",
-            "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot.",
-            "HOUR": "hour",
-            "MINUTE": "minute",
-            "SECOND": "second",
-            "AGO": " ago```"
+            "IM_AFK_NOMD": "*I'm AFK now!*",
+            "REASON": "*හේතුව*",
+            "LAST_SEEN": "*අවසන් වරට දුටුවේ*",
+            "IM_NOT_AFK": "*I am not AFK anymore!*",
+            "AFK_TEXT": "*Bip bop! This is a bot. My owner is not here at the moment.*",
+            "AFK_TEXT_NOMD": "*Bip bop! This is a bot.*",
+            "HOUR": "*පැය*",
+            "MINUTE": "*මිනිත්තු*",
+            "SECOND": "*තත්පර*"
         },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
