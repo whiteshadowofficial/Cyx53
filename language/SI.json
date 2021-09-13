@@ -14,19 +14,19 @@
             
         },
         "_plugin": {
-            "INSTALL_DESC": "Install external plugins.",
-            "NEED_URL": "Please enter a URL! Example:",
-            "UNOFF": "⚠️ *Attention!* \n*The plugin you have installed is not official!*",
-            "INVALID_URL": "```Please enter a valid url!```",
-            "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
-            "INSTALLED": "*✅ Plugin has been successfully installed!*",
-            "PLUGIN_DESC": "Shows the plugins you have installed.",
+            "INSTALL_DESC": "*අමතර pluggings ස්තාපනය කරයි..*",
+            "NEED_URL": "*කරුණාකර URL ඇතුලත් කරන්න! උදාහරණ* :",
+            "UNOFF": "⚠️ *දැනුන්දීමයි!* \n*ඔබ ස්තානපනය කල ප්ලගීනය වලංගු එකක් නොවේ..!*",
+            "INVALID_URL": "*කරුණාකර වලංගු URL ඇතුලත් කරන්න!*",
+            "INVALID_PLUGIN": "*❌ ප්ලගීනය වැරදියි!*\n*Error:*",
+            "INSTALLED": "*✅ සාර්තකව ස්තාපනය විය!*",
+            "PLUGIN_DESC": "*ඔබ ලබා ඇති ප්ලගීන පෙන්වයි.*",
             "INSTALLED_FROM_REMOTE": "*Plugins you install externally:*\n",
             "NO_PLUGIN": "*You have not installed any external plugins!*",
-            "REMOVE_DESC": "Removes the plugin.",
+            "REMOVE_DESC": "*ප්ලගීන ඉවත් කරයි.*",
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "*✅ Module successfully deleted!*",
+            "DELETED": "*✅ සාර්තකව මකා දැමුවා*",
             "WARN": "Get plugins only from t.me/neotroplug channel."
         },
         "admin": {
