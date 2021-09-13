@@ -142,16 +142,16 @@
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
         "memes": {
-            "MEMES_DESC": "**පිළිතුරු දුන් ඡායාරූපය Meme බවට පරිවර්තනය කරයි.*",
-            "NEED_REPLY": "*ඡායාරූපයකට ටැග් කරන්න!*",
-            "DOWNLOADING": *👩‍🦰Downloading media & making meme...*"
-        },
+            "MEMES_DESC": "Photo memes you replied to.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Downloading media & making meme...```"
+         },
         "music": {
             "MC": "To play musics."
-        },
+          },
         "over": {
             "OVER_DESC": "To remove."
-        },
+         },
         "gitlink": {
             "GL": "To show dgithub details."
         },
