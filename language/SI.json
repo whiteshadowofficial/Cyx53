@@ -430,14 +430,13 @@
             "URL": "*You must enter the image URL!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
         },
         "ttp": {
-            "TTP_DESC": "Converts text to plain painting.",
-            "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
-            "NEED_WORD": "*You must enter words!*",
-            "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
-            "TRUMP_DESC": "Converts the text to Trump's tweet.",
-            "CHANGE_DESC": "Turns the text into the change my mind poster.",
-            "GLOW_DESC": "Converts text into neon painting."
-        },
+            "TTP_DESC": "Text සරල image බවට පරිවර්තනය කරයි.",
+            "ATTP_DESC": "දේදුන්න text ස්ටිකරයක් ලෙස එක් කරයි.",
+            "NEED_WORD": "*ඔබ වචන ඇතුළත් කළ යුතුය!*",
+            "ANIME_DESC": "එය anime girl රඳවාගෙන සිටින banner තුළ text ලියයි",
+            "TRUMP_DESC": "Trumpගේ tweet එකට text පරිවර්තනය කරයි.",
+            "CHANGE_DESC": "Change my mind meme පෝස්ටරය වෙනස් කිරීම සඳහා text හරවයි."
+       },
         "wallpaper": {
             "WP": "*එය high resolution wallpapers යවයි.*"
         },
