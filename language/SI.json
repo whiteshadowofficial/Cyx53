@@ -286,17 +286,17 @@
             "NOT_FOUND": "```මෙම නම සහිත නගරයක් සොයාගත නොහැකි විය. 😖```"
         },
         "web": {
-            "SPEEDTEST_DESC": "Measures Download and Upload speed.",
-            "SPEEDTESTING": "```Running speed test...```",
-            "SPEEDTEST_RESULT": "*Speed ​​test completed!*",
+            "SPEEDTEST_DESC": "Download කිරීම සහ Upload කිරීමේ වේගය මැනීම.",
+            "SPEEDTESTING": "\n```🔄 Running speed test...```\n",
+            "SPEEDTEST_RESULT": "*✅ Speed ​​test completed!*",
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
-            "CALC": "Performs simple math operations.",
+            "PING_DESC": "*ඔබේ ping මැනීම.*",
+            "URL": "*Links shorten කරන්න.*"
+            "CALC": "*සරල ගණිත කර්ම එක්කරයි.*",
             "SUC": "*Calculation Done ✅*\n*Result:* ",
             "UNSUC": "*Calculation Failed ❌*\n*Error:* \n",
-            "VALİD": "*Please Use As Applicable!* \n*.calc 1 + 2*\n*.calc 3 x 5*\n*.calc 10 / 5*\n*.calc 5 - 2*",
-            "PING_DESC": "Measures your ping.",
-            "URL": "Shorten the long link."
+            "VALİD": "*Please Use As Applicable!* \n*.calc 1 + 2*\n*.calc 3 x 5*\n*.calc 10 / 5*\n*.calc 5 - 2*"
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
