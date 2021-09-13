@@ -275,15 +275,15 @@
             "SUC": "*Message Successfully Saved to LOG!*"
         },
         "weather": {
-            "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
-            "LOCATION": "Location",
-            "TEMP": "Temperature",
-            "DESC": "Description",
-            "HUMI": "Humidity",
-            "WIND": "Wind Speed",
-            "CLOUD": "Cloud",
-            "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
+            "WEATHER_DESC": "*කාලගුණය පෙන්වයි.*",
+            "NEED_LOCATION": "*කරුණාකර ස්ථානයක් ලියන්න!*\n*Example:* ```.weather Colombo```",
+            "LOCATION": "ස්ථානය",
+            "TEMP": "උෂ්ණත්වය",
+            "DESC": "විස්තර",
+            "HUMI": "ආර්ද්‍රතාවය",
+            "WIND": "සුළං වේගය",
+            "CLOUD": "වලාකුළු",
+            "NOT_FOUND": "```මෙම නම සහිත නගරයක් සොයාගත නොහැකි විය. 😖```"
         },
         "web": {
             "SPEEDTEST_DESC": "Measures Download and Upload speed.",
