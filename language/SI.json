@@ -186,34 +186,34 @@
             "RBGING": "```Removing background...```"
         },
         "scrapers": {
-            "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
-            "TRANSLATE_USAGE": ".trt en si (From english to sinhala)",
-            "NEED_REPLY": "```Please reply to any message!```",
-            "LANG": "Language",
-            "FROM": "Translated Language",
-            "RESULT": "Translate",
-            "TRANSLATE_ERROR": "❌ An error occured while translating!*",
-            "CURRENCY_ERROR": "```Syntax error! Example: .currency 1 TRY USD```",
-            "INVALID_CURRENCY": "```Foreign currency transaction failed. You wrote wrong currency!```",
-            "UNKNOWN_ERROR": "```An error occurred. Foreign currency transaction failed!```",
-            "TTS_DESC": "It converts text to sound.",
-            "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
-            "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
-            "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Searching*\n",
-            "UPLOADING_SONG": "\n*Feel the song*\n",
-            "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlV5qeBc```",
-            "DOWNLOADING_VIDEO": "*Downloading*",
-            "UPLOADING_VIDEO": "*Uploading*",
-            "YT_DESC": "It searchs on YouTube.",
-            "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
-            "NOT_FOUND": "*I couldn't find anything :(*",
+            "TRANSLATE_DESC": "එය ගූගල් පරිවර්තනය සමඟ පරිවර්තනය කරයි. ඔබ ඕනෑම පණිවිඩයකට mention දිය යුතුය.",
+            "TRANSLATE_USAGE": ".trt en si (From English to Sinhala)",
+            "NEED_REPLY": "```කරුණාකර ඕනෑම පණිවිඩයකට mention දෙන්න!```",
+            "LANG": "භාෂාව",
+            "FROM": "පරිවර්තනය කළ භාෂාව",
+            "RESULT": "පරිවර්තනය කළ පණිවිඩය",
+            "TRANSLATE_ERROR": "❌ පරිවර්තනය කිරීමේදී දෝෂයක් සිදුවිය!*",
+            "CURRENCY_ERROR": "```Syntax error! උදාහරණයක්: .currency 1 USD LKR```",
+            "INVALID_CURRENCY": "```විදේශ මුදල් ගනුදෙනුව අසාර්ථක විය. ඔබ වැරදි මුදල් ලියා ඇත!```",
+            "UNKNOWN_ERROR": "```දෝෂයක් ඇතිවිය. විදේශ මුදල් ගනුදෙනුව අසාර්ථක විය!```",
+            "TTS_DESC": "එය වචන voice messageට පරිවර්තනය කරයි.",
+            "TTS_ERROR": "```දෝෂය, ඔබේ වාක්‍යයේ කථන voice message කළ නොහැක!```",
+            "SONG_DESC": "ඔබ ලියූ ගීතය උඩුගත කරයි.",
+            "NEED_TEXT_SONG": "*කරුණාකර ගීතයක් කියන්න!*\n*උදාහරණයක්:* ```.song kelinma ahanna ayya song```",
+            "NO_RESULT": "*මට කිසිවක් සොයාගත නොහැකි විය. :(*",
+            "DOWNLOADING_SONG": "*Searching...🔎*",
+            "UPLOADING_SONG": "*Feel the song🎧*",
+            "VIDEO_DESC": "*Youtube වීඩියෝ බාගත කරයි.*",
+            "NEED_VIDEO": "*කරුණාකර URL ඇතුළත් කරන්න.!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFGV5qeBc```",
+            "DOWNLOADING_VIDEO": "*🚀Downloading*",
+            "UPLOADING_VIDEO": "*📥Uploading*",
+            "YT_DESC": "*Youtube හි Search කරයි.*",
+            "NEED_WORDS": "*කරුණාකර වචනයක් ඇතුළත් කරන්න!*",
+            "GETTING_VIDEOS": "I'm bringing videos...",
+            "NOT_FOUND": "*කිසිවක් හමු නොවීය :(*",
             "SEARCHING": "* 🔎 Searching...*",
-            "WIKI_DESC": "Searches query on Wikipedia.",
-            "IMG_DESC": "Searches for related pics on Google.",
+            "WIKI_DESC": "Wikipedia හි search කරයි.",
+            "IMG_DESC": "Google හි ඇති ඡායාරූප ලබා දෙයි.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
         },
         "sticker": {
@@ -226,17 +226,17 @@
             "SYSD_DESC": "*System විස්තර ලබාදෙයි.*"
         },
         "tagall": {
-            "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*",
-            "SCAN": "Checks whether the entered number is registered on WhatApp.",
+            "TAGALL_DESC": "*සමූහයෙ සියලු දෙනා Tag කරයි.*",
+            "ADMİN": "*සමූහයේ පරිපාලකයෙකු නොවේ.!*",
+            "SCAN": "*ලබාදෙන දුරකතන අංකය Whatsapp සිටීද යන්න පරීක්ෂා කරයි..*",
             "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
             "SUC": "*Numbered Person Uses WhatsApp! ✅*",
             "UNSUC": "*Numbered Person Does Not Use WhatsApp! ❌*",
             "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
-            "TAGADMİN": "Tags group admins.",
-            "REPORT": "Sends reports to group admins.",
-            "USER": "=== ```Report``` ===\n\n*User:* ",
-            "REASON": "\n*Reason:* ",
+            "TAGADMİN": "*සමූහයේ පරිපාලකයන් Tag කරයි.*",
+            "REPORT": "සමූහයෙ පරිපාලයන්ට දැනුම් දෙයි.",
+            "USER": "◁=== ```Report``` ===▷\n\n*පුද්ගලයා:* ",
+            "REASON": "\n*හේතුව:* ",
             "REPLY": "*Please Respond to User's Message to Report!*",
             "WREPORT": "Sends warning reports to group admins.",
             "WUSER": " ```⚠️ Warning ⚠️``` \n\n ```1 warnings remaining``` \n\n *User:* ",
@@ -265,7 +265,7 @@
             "ST": "*Person Status:* "
         },
         "log": {
-            "LOG": "Saves the message you reply to your private number.",
+            "LOG": "LOG අංකය තුල පණිවිඩ ගබඩා කරයි.",
             "REPLY": "*Please Reply To Any Message!*",
             "ANIM": "Does not support animated stickers!",
             "HEAD": "```===== [LOGGED MESSAGE] =====```\n\n",
@@ -445,10 +445,10 @@
             "GLOW_DESC": "Converts text into neon painting."
         },
         "wallpaper": {
-            "WP": "It sends high resolution wallpapers."
+            "WP": "*එය high resolution wallpapers යවයි.*"
         },
         "webss": {
-            "SS_DESC": "Takes a screenshot from the page in the given link.",
+            "SS_DESC": "*ලබාදෙන සබැඳියේ Screen Shot ලබාගනියි*.",
             "LİNK": "You must enter link!"
         },
         "voicy": {
@@ -486,7 +486,7 @@
         },
         "qrgenerator": {
              "TEXT": "You must enter text!",
-            "QR_DESC": "Converts the given text into a qr code image."
+            "QR_DESC": "*අකුරු QR CODE ලෙස පරිවර්තනය කරයි*."
         },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github xneon2",
@@ -536,7 +536,7 @@
             "M_AUT": "Music Author:"
         },
         "lyrics": {
-            "LY_DESC": "Finds the lyrics of the song.",
+            "LY_DESC": "*ගීත Lyrics ලබාදෙයි.*",
             "NEED": "```You Must Write Any Song!```",
             "SLY": "Lyrics:",
             "AUT": "Song Owner:",
@@ -587,7 +587,7 @@
             "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
         },
         "covid": {
-            "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
+            "COV_DESC": "කොවිඩ් වාර්තා ලබා දෙයි.",
             "NOT": "```Sorry I Could Not Find A Country Like This! Please Enter Applicable Country Codes!```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
         }
     }
