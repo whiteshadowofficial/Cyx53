@@ -25,3 +25,8 @@ Neotro.addCommand({pattern: 'listanim', fromMe: fs, desc: Lang.CLIST}, (async (m
     await message.sendMessage("  *👩‍🦰Amazone Alexa Anime List*\n\n╔═════════▷\n╠🌼: .loli\n╠🌼: .wifu\n╠🌼: .neko\n╠🌼: .ava\n╠🌼: .kemo\n╠🌼: .awoo\n╠🌼: .shinobu\n╠🌼: .megumin\n╚═════════▷");
 
 }));
+
+Neotro.addCommand({pattern: 'newslist', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+    await message.sendMessage("<===👩‍🦰Amazone Support Group===>\n\n🦹‍♀️News 01\n💬https://chat.whatsapp.com/LuLTEKm22fp8gv4ltCmKMo\n🦹‍♀️News 02\n💬https://chat.whatsapp.com/LVykTrmNEU98AktU0eBNNq\n🦹‍♀️News 03\n💬https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8\n\n⚡Plugins Group \n📑https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT\n\n⚙Support 01\n🧚https://chat.whatsapp.com/GTgqgMTo7FoJ1GqdijshsX\n⚙Support 02\n🧚https://chat.whatsapp.com/K4QouGNrNcm1iARgDaYiLj\n⚙Support 03\n🧚https://chat.whatsapp.com/DSX2aegJpVRG3cWIUlBa48\n");
+
+}));
