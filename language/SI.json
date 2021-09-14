@@ -1,7 +1,7 @@
 {
     "__ASENAJSON__": true,
     "LANGUAGE": "sinhala",
-    "LANGCODE": "en",
+    "LANGCODE": "si",
     "AUTHOR": "TEENUHX",
     "STRINGS": {
         "_amazone": {
@@ -572,7 +572,7 @@
             "ADON_SUCCESS": "```✅Success```",
             "ADON_INVALID": "```විධානය අවලංගුය.```",
             "BOT": ":",
-            "A": "📑",
+            "SONG": "*සිංදු document ලෙස බාගත කරයි*",
             "B": "📑",
             "C": "👩‍🦰",
             "D": "📑",
