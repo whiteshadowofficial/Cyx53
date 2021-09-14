@@ -28,7 +28,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text==${match[1]}&color=red&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -38,7 +38,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=blue&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -48,7 +48,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=green&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -58,7 +58,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=black&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -68,7 +68,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=yellow&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -78,7 +78,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=pink&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -88,7 +88,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=purple&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -98,7 +98,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=original&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -108,7 +108,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=brown&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
@@ -118,7 +118,7 @@ Neotro.addCommand({pattern: 'll ?(.*)', fromMe: am, dontAddCommandList: true}, (
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikeyVI6j4t4wCbwoc6Deh5wgrJL2Kt1=&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`http://zekais-api.herokuapp.com/text2png?text=${match[1]}&color=erin&apikey=DoH8MCdm`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*🎭ɴᴇᴏᴛʀᴏ𝙭🪐*'})
 
