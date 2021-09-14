@@ -1,7 +1,7 @@
 {
     "name": "Amazon",
     "description": "Amazone Alexa Is Powerfull whatsapp bot For Whatsapp",
-    "logo": "https://i.imgur.com/kB30S41.png",
+    "logo": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg",
     "keywords": ["whatsapp", "userbot", "java", "button bot", "whatsapp", "api", "ai", "asena", "bug", "free rdp" ],
     "repository": "https://www.github.com/jesonpro/ales",
     "website":   "wa",
@@ -153,21 +153,32 @@
         "CHANGE_BGM_TO": {
             "description": "Dont leave this blank choose the bgm you need - enter -angela- for talking angela - enter -Tom- for Talking tom",
             "required": true,
-            "value": "one"
+            "value": "angela"
         },
         "DEMOTE_MESSAGE": {
             "description": "Demote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
+        "INBOX_BLOCK": {
+            "description": "Activate Inbox Block System true or false",
+            "required": false,
+            "value": "false"
+        },
+        "WELCOME_GIF": {
+            "description": "Welcome Gif",
+            "required": false,
+            "value": "https://telegra.ph/file/d969f3365028c88c7719f.mp4"
+        }, 
+        "BYE_GIF": {
+            "description": "Bye gif",
+            "required": false,
+            "value": "https://telegra.ph/file/d969f3365028c88c7719f.mp4"
+        },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
-        },
-        "TAG_REPLY": {
-            "description": "Enter jid of your number so that you get a audio reply when metioned example - 947xxxxxxxxxx@s.whatsapp.net - for sri lanka",
-            "required": false          
+            "value": "default"          
        },
         "BOT_PRESENCE": {
             "description": "Type the Presence of bot, presences: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE PRESENCE WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
