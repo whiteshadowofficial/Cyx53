@@ -46,7 +46,7 @@ const Language = require('../language');
 const Lang = Language.getString('scrapers');
 const Glang = Language.getString('github');
 const Slang = Language.getString('lyrics');
-const Clang = Language.getString('covid');
+const Clang = Language.getString('amazone');
 
 const wiki = require('wikijs').default;
 var gis = require('g-i-s');
@@ -133,7 +133,7 @@ if (config.LANG == 'RU') {
 
 if (config.WORKTYPE == 'public') {
 
-Asena.addCommand({pattern: 'dcsong ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
+Asena.addCommand({pattern: 'dcsong ?(.*)', fromMe: false, desc: Clang.SONG}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -167,9 +167,10 @@ Asena.addCommand({pattern: 'dcsong ?(.*)', fromMe: false, desc: Lang.SONG_DESC},
     }));
 
 }
+
 if (config.WORKTYPE == 'private') {
 
-Asena.addCommand({pattern: 'dcsong ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
+Asena.addCommand({pattern: 'dcsong ?(.*)', fromMe: true, desc: Clang.SONG}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
