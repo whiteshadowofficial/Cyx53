@@ -7,6 +7,7 @@ NEOTROX - TEENUHX
 const Neotro = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
+const Config = require('../config');
 const Lang = Language.getString('amazone');
 let fs = Config.WORKTYPE == 'public' ? false : true
 
