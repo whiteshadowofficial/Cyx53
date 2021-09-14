@@ -469,10 +469,107 @@ Asena.addCommand({pattern: 'nxwolf ?(.*)', fromMe: am, dontAddCommandList: true}
 
     }));
 
-Asena.addCommand({pattern: ' ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/ninja?text1=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
+
+    }));
+
+Asena.addCommand({pattern: '06 ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://${Config.A_HACKER}.herokuapp.com/api/ephoto/🚀?text=${match[1]}&apikey=${Config.HACKER}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.BOT_NAME})
 
