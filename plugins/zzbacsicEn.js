@@ -21,7 +21,7 @@ if (Config.LANG == 'EN') {
 But for others, all the commands except the admin commands are active ...
 
 Use (.Admin) to get the admin command list
-Use (.neotro) to get the complete command list.
+Use (.alexa) to get the complete command list.
 
 If you are using neotro-x as Private (.neotro) you can use this command to get the command list.
 
