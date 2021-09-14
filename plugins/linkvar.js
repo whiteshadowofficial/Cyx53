@@ -31,7 +31,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         LINKT_off = 'M_LINK TURNED Off'
     }
    
-    Asena.addCommand({pattern: 'mlink ?(.*)', fromMe: true, desc: l_dsc, usage: '.mlink on / of' }, (async (message, match) => {
+    Asena.addCommand({pattern: 'blocklink ?(.*)', fromMe: true, desc: l_dsc, usage: '.mlink on / of' }, (async (message, match) => {
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
