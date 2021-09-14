@@ -6,18 +6,21 @@ NEOTROX - TEENUHX
 
 const Neotro = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
+const Language = require('../language');
+const Lang = Language.getString('amazone');
+let fs = Config.WORKTYPE == 'public' ? false : true
 
-Neotro.addCommand({pattern: '', fromMe: fs, desc: Lang.ALIST}, (async (message, match) => {
+Neotro.addCommand({pattern: 'textimg', fromMe: fs, desc: Lang.ALIST}, (async (message, match) => {
     await message.sendMessage("");
 
 }));
 
-Neotro.addCommand({pattern: '', fromMe: fs, desc: Lang.ALIST}, (async (message, match) => {
+Neotro.addCommand({pattern: 'listp', fromMe: fs, desc: Lang.BLIST}, (async (message, match) => {
     await message.sendMessage("");
 
 }));
 
-Neotro.addCommand({pattern: '', fromMe: fs, desc: Lang.ALIST}, (async (message, match) => {
+Neotro.addCommand({pattern: 'listanim', fromMe: fs, desc: Lang.CLIST}, (async (message, match) => {
     await message.sendMessage("");
 
 }));
