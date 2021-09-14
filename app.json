@@ -36,11 +36,6 @@
             "required": false,
             "value": "false"   
         },
-        "ANTİ_LİNK": {
-            "description": "Link Blocking System.",
-            "required": true,
-            "value": "false"
-        },
         "AUTO_BIO": {
             "description": "Set true for auto date, time in biography.",
             "required": true,
@@ -56,8 +51,8 @@
             "required": false,
             "value": "👩‍🦰©Amazone Alexa"
         },
-        "ALL_LINK_BAN": {
-            "description": "Link Blocking System.- this one blocks all link",
+        "WHATS_LINK_BLOCK": {
+            "description": "Link Blocking System.- this one blocks whatsapp group  link",
             "required": true,
             "value": "false"
         },
@@ -86,8 +81,7 @@
             "value": "default"
        },
          "THERI_LIST": {
-            "description": "bad word ban...  add the bad words you dont allow in your grp (THERI_KICK must be true to run this feature , and dont change the 1st word ) example: plk-dqz,f**k,d**k",
-            "description": "bad word ban...  add the bad words you dont allow in your grp (THERI_KICK must be true to run this feature) example: plk-dqz,f**k,d**k",
+            "description": "Safe mode",
             "required": true,
             "value": "true"
         },
@@ -178,7 +172,12 @@
         "ALIVE_LOGO": {
             "description": "Alive message Photo.",
             "required": false,
-            "value": ""
+            "value": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg"
+       },
+        "MENU_LOGO": {
+            "description": "Alive message Photo.",
+            "required": false,
+            "value": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg"
         },
         "AI_BOT": {
             "description": "Activate AI SIM chat bot",
