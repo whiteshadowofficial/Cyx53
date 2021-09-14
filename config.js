@@ -79,6 +79,7 @@ module.exports = {
     WELCOME: process.env.WELCOME === undefined ?'gif' : process.env.WELCOME,
     AI_BOT: process.env.AI_BOT === undefined ?'true' : process.env.AI_BOT,
     INBOX_BLOCK: process.env.INBOX_BLOCK === undefined ?'false' : process.env.INBOX_BLOCK,
+    WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ?'false' : process.env.WHATS_LINK_BLOCK,
     SITE: process.env.SITE === undefined ?'netfiletolink.herokuapp.com/' : process.env.SITE,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
