@@ -1031,7 +1031,6 @@ Asena.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (asyn
         });
     }));
 
-
     Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
