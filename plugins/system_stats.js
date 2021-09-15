@@ -14,9 +14,6 @@ let am = Config.WORKTYPE == 'public' ? false : true
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
-
-if (Config.WELCOME == 'gif') {
-
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
@@ -46,7 +43,7 @@ if (Config.WELCOME == 'gif') {
             '```' + child + '```', MessageType.text
         );
     }));
-}
+
 else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
