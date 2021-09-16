@@ -33,7 +33,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         LINKT_off = 'සාර්තකව අක්‍රිය විය.'
     }
    
-    Asena.addCommand({pattern: 'blocklink ?(.*)', fromMe: true, desc: l_dsc, usage: '.blocklink on / of' }, (async (message, match) => {
+    Asena.addCommand({pattern: 'whatsblock ?(.*)', fromMe: true, desc: l_dsc, usage: '.blocklink on / of' }, (async (message, match) => {
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
