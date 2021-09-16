@@ -51,7 +51,7 @@ if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (alllink_var == 'true' && message.jid !== '9082891698-1616356915@g.us') {
+    if (alllink_var == 'true') {
         let regex1 = new RegExp('bitly.com')
         let regex2 = new RegExp('https://chat.whatsapp.com')
         if (regex1.test(message.message)) {
