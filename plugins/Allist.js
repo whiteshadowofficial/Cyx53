@@ -38,7 +38,7 @@ Amazone.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (messa
        
        const button = {
         buttonText: 'Click Me',
-        description: "👩‍🦰Amazone Alexa මූලික විධාන ලැයිස්තු - Command panel",
+        description: "👩‍🦰Stefanie Alexa මූලික විධාන ලැයිස්තු - Command panel",
         sections: sections,
         listType: 1
        }
@@ -69,7 +69,7 @@ Amazone.addCommand({pattern: 'menu', fromMe: true, dontaddCommandList:true}, (as
        
        const button = {
         buttonText: 'Click Me!',
-        description: "👩‍🦰Amazone Alexa මූලික විධාන ලැයිස්තු",
+        description: "👩‍🦰Stefanie මූලික විධාන ලැයිස්තු",
         sections: sections,
         listType: 1
        }
