@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/jesonpro/ales /root/ales
+RUN git clone https://github.com/xmain12/ales /root/ales
 WORKDIR /root/ales/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
